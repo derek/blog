@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Kansas City | Scribbles and Bits]]></title>
+  <link href="http://derek.github.io/blog/blog/categories/kansas-city/atom.xml" rel="self"/>
+  <link href="http://derek.github.io/blog/"/>
+  <updated>2014-05-17T18:13:40-07:00</updated>
+  <id>http://derek.github.io/blog/</id>
+  <author>
+    <name><![CDATA[Derek Gathright]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Upcoming Events for Kansas City Developers/designers]]></title>
+    <link href="http://derek.github.io/blog/2009/upcoming-events-for-kansas-city-developersdesigners/"/>
+    <updated>2009-02-07T00:45:35-08:00</updated>
+    <id>http://derek.github.io/blog/2009/upcoming-events-for-kansas-city-developersdesigners</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m involved with organizing two upcoming events in the Kansas City area for web developer/designers.</p>
+
+<p><span style="text-decoration: underline;">PreDevCamp &ndash; Kansas City</span></p>
+
+<p>This is an event we just announced today that will be a &ldquo;bootcamp&rdquo; for developing on Palm&rsquo;s new Mojo SDK platform, which is the development toolkit for the upcoming Palm Pre phone.</p>
+
+<p>Website: <a href="http://kansascity.predevcamp.org/">PreDevCamp &ndash; Kansas City</a>.</p>
+
+<p><span style="text-decoration: underline;">StartupWeekend &ndash; Kansas City</span></p>
+
+<p>StartupWeekends are events that have been occuring nationwide for the past couple years, and it is Kansas City&rsquo;s first  chance to host one.  These events typically take place over a weekend, starting Friday afternoon, and ending Sunday evening.  During this event, teams of developers, designers, project managers, marketing peeps, etc&hellip; will break off into teams and at the weekend the goal is to have a company up &amp; running with a prototype product built to demo to potential investors.</p>
+
+<p>Website: <a href="http://kansascity.startupweekend.com/"><a href="http://kansascity.startupweekend.com/">http://kansascity.startupweekend.com/</a></a></p>
+]]></content>
+  </entry>
+  
+</feed>

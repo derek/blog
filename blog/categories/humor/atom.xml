@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Humor | Scribbles and Bits]]></title>
+  <link href="http://derek.github.io/blog/blog/categories/humor/atom.xml" rel="self"/>
+  <link href="http://derek.github.io/blog/"/>
+  <updated>2014-05-17T18:13:40-07:00</updated>
+  <id>http://derek.github.io/blog/</id>
+  <author>
+    <name><![CDATA[Derek Gathright]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tech Support]]></title>
+    <link href="http://derek.github.io/blog/2009/tech-support/"/>
+    <updated>2009-08-24T18:29:15-07:00</updated>
+    <id>http://derek.github.io/blog/2009/tech-support</id>
+    <content type="html"><![CDATA[<p>This has been blowing up on Twitter today, so figured it was worthy of a blog post. =D</p>
+
+
+<p></p>
+
+<p><a href="http://imgs.xkcd.com/comics/tech_support_cheat_sheet.png"><img src="http://imgs.xkcd.com/comics/tech_support_cheat_sheet.png" alt="Tech Support" width="420" /></a></p>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Technology | Scribbles and Bits]]></title>
+  <link href="http://derek.github.io/blog/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://derek.github.io/blog/"/>
+  <updated>2014-05-17T18:13:40-07:00</updated>
+  <id>http://derek.github.io/blog/</id>
+  <author>
+    <name><![CDATA[Derek Gathright]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google Shutting Down the Translate API]]></title>
+    <link href="http://derek.github.io/blog/2011/google-translate/"/>
+    <updated>2011-05-27T12:55:19-07:00</updated>
+    <id>http://derek.github.io/blog/2011/google-translate</id>
+    <content type="html"><![CDATA[<p>When I have conversations with people about what excites me in technology today, I usually start with the fact that the Web is breaking down barriers in a way we&rsquo;ve never experienced before.  It is simply amazing that anyone is free to publish anything they want whenever they want, and is it instantly available for global consumption.</p>
+
+<p>Today, <a href="http://www.bulawayo24.com/index-id-news-sc-international-byo-966-article-More+than+2+billion+people+use+the+internet.html">2 billion people are on the internet</a>.  That means nearly a third of the world&rsquo;s population has access to Wikipedia, Google, Yahoo, Twitter, Facebook, etc&hellip;  The Web has finally given us the chance to globally communicate.  The only thing restricting us at this point isn&rsquo;t a technical barrier, but instead is a language barrier. Linguists estimate there are between 5,000-6,000 currently spoken languages on the planet.  Yet, very few of us speak more than one or two of those.  More than ever we need free &amp; accessible ways to easily translate between languages, allowing us to communicate with a global audience.</p>
+
+<p>Since 2008, we&rsquo;ve have that.  The <a href="https://code.google.com/apis/language/translate/overview.html">Google Translate API</a>.  It&rsquo;s an API (application programming interface) that allows you to programmatically send text to Google, and they will translate it for you, for free.  It&rsquo;s an amazingly useful service that I have in <a href="http://tweenky.com">one of my Twitter clients</a> to instantly translate any tweets I can&rsquo;t read.</p>
+
+<p>Sadly, yesterday they posted this message on the API&rsquo;s page.</p>
+
+<blockquote><p>Important: The Google Translate API has been officially deprecated as of May 26, 2011. Due to the substantial economic burden caused by extensive abuse, the number of requests you may make per day will be limited and the API will be shut off completely on December 1, 2011. For website translations, we encourage you to use the Google Translate Element.</blockquote></p></blockquote>
+
+<p>In other words&hellip; &ldquo;This is why we don&rsquo;t have nice things&rdquo;</p>
+
+<p>Very disappointing, especially for a company who set out to &ldquo;Organize the World&rsquo;s Information&rdquo; a decade ago.  One would assume the goal of organizing is to make it accessible.  Guess not.</p>
+
+<p>When Google implemented the <a href="http://www.w3.org/2005/Incubator/htmlspeech/2010/10/google-api-draft.html">Speech Input API</a> in Chrome, my mind instantly blew up with ideas.  I loved knowing that we were so close to having an application for your mobile device that allows you to say something, and it will instantly start translating it into text of any language.</p>
+
+<p>Here&rsquo;s an example of how easy it could be.</p>
+
+<pre>
+&lt;html&gt;
+    &lt;input type=&quot;text&quot; id=&quot;foo&quot; speech&gt;
+    &lt;textarea id=&quot;translation&quot;&gt;&lt;/textarea&gt;
+    &lt;script src=&quot;https://www.google.com/jsapi&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        function translate() {
+            google.load(&quot;language&quot;, &quot;1&quot;);
+            google.setOnLoadCallback(function() {
+                var native_text     = document.getElementById(&#039;foo&#039;).value;
+                var native_language = &quot;en&quot;; //english
+                var target_language = &quot;es&quot;; //spanish
+                google.language.translate(native_text, target_language, native_language, function(result) {
+                    document.getElementById(&quot;translation&quot;).innerHTML = result.translation;
+                });
+            });
+        }
+        document.getElementById(&quot;foo&quot;).addListener(&quot;change&quot;, translate);
+    &lt;/script&gt;
+&lt;/html&gt;
+</pre>
+
+
+<p>You could solve a problem humans have had for thousands of years, in about 5 lines of JavaScript code.</p>
+
+<p>Well, starting Dec 1st, 2011, you&rsquo;ll have to use another service.</p>
+
+<p>There&rsquo;s no doubt in my mind we&rsquo;ll get this type of capability in the near future, I&rsquo;m just disappointed Google decided it didn&rsquo;t want to be involved in solving these kinds of real, human problems.</p>
+
+<p>Hopefully Google reconsiders this decision. To help, go post a comment on the <a href="http://googlecode.blogspot.com/2011/05/spring-cleaning-for-some-of-our-apis.html">Google Code blog</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter vs Ecosystem]]></title>
+    <link href="http://derek.github.io/blog/2011/some-thoughts-on-twitter-vs-ecosystem/"/>
+    <updated>2011-03-15T02:35:19-07:00</updated>
+    <id>http://derek.github.io/blog/2011/some-thoughts-on-twitter-vs-ecosystem</id>
+    <content type="html"><![CDATA[<p>So Twitter is once again in some hot water with their developer community.  After a well-intentioned, but poorly executed suggestion to their developer community that they stop working on developing clients and instead work on &ldquo;vertical&rdquo; ideas, the feedback they&rsquo;ve received has been less than ideal.  You can read the original post at &ldquo;<a href="http://groups.google.com/group/twitter-development-talk/browse_thread/thread/c82cd59c7a87216a/b63072f6aff82db0">consistency and ecosystem opportunities</a>&rdquo;, and some of the media coverage <a href="http://mashable.com/2011/03/12/twitter-api-clients/">here</a>, <a href="http://techcrunch.com/2011/03/11/twitter-ecosystem-guidelines/">here</a>, and <a href="http://thenextweb.com/twitter/2011/03/14/twitter-explains-why-developers-shouldnt-build-new-clients/">here</a>.</p>
+
+<p>Some developers are understanding, others are irate, and many are still pretty confused about what exactly this all means.  I guess I&rsquo;d put myself in the 3rd (&ldquo;confused&rdquo;) group.  But I guess the one thing I do know, is that it is clear these &ldquo;suggestions&rdquo; and TOS updates are directed at UberMedia in order to prevent them from forking their portion of the Twitter user base.  But, now the rest of the community has now unfairly been dragged into the mix.</p>
+
+<p>As someone who has been doing development on Twitter-related projects since 2007, I figured I&rsquo;d throw my 2 cents into the mix and give Twitter an idea of where they went wrong, and how they can fix it.  I figured it was worth a repost here on my blog.</p>
+
+<p><a href="http://groups.google.com/group/twitter-development-talk/msg/34ae2fac254d1bac">Link to post.</a></p>
+
+<blockquote>My 2 cents...
+
+The reason for the perceived mixed messages for some of us is because many developers don't, and never have been interested in doing Twitter development as a business.  I've created a dozen Twitter clients & apps over the last 5 years, some of which received enough users and press coverage that I could have attempted to turn it into a business, but I didn't. Why? Because it doesn't interest me. I do it for the challenge and the learning experience.
+
+So, the things we hear Twitter saying are "Don't build clients anymore" as well as "Client apps make bad business".  Well, first, as long as the APIs are active and it's not against the TOS, I'm still going to build, develop, and use my own clients.  Second, I don't care that it makes "bad business", that's isn't a concern to me.  Third, developers can determine for themselves what seems like a smart business decision or not.  Fourth, frankly, Twitter Inc has never been regarded as an expert in monetization strategies.
+
+Plus, this is info we already knew.  For the most part, building a company whose main product is a Twitter client hasn't been a good business decision for a few years (if ever, outside of a lucky few).  But on the other hand, there are still markets where it could be good business.  For example, where is the official Twitter client for webOS?  Messages like "Don't build clients anymore" and no official Twitter app on webOS does nothing but hurt the ecosystem for thousands of users.  If I were a developer for one of the popular webOS clients, I'd be pretty pissed right now.  Heck, as a webOS user I'm not thrilled.  I'm sure this is applicable to other ecosystems too.
+
+The point is, Twitter should be more vocal about what it is going to do as opposed to coy suggestions to developers (which some perceive as threats) about what they shouldn't do.  Twitter is going to heavily focus on front-end user experiences across all platforms? Great! Leave it at that.  Let developers decide for themselves what are good/bad ideas.  Just arm us with the knowledge of your plans, and we'll worry about our own.
+
+Finally, Twitter, you should be excited to compete with your developers. Much of the innovation over the years has been a product of the developer & user community.  Things like mentions & hashtags came from your users.  Features like saved searches, lists, trends, and ajax driven clients were inventions of developers years before they made it into Twitter.com.  Essentially, "New" Twitter is just a compilation of the best features from all the 3rd party clients.  Do not be hostile.  Do not attack them with your TOS.  Do not suspend tokens without working with the developer first.  Doing these things hurts the community, which in turn hurts you.  Your users are your product.  Not your platform.  Not your website.  Not your ads.  Your users.
+
+- @derek</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Amazon and Lala: What Could Have Been]]></title>
+    <link href="http://derek.github.io/blog/2010/amazon-and-lala-what-could-have-been/"/>
+    <updated>2010-01-22T15:36:31-08:00</updated>
+    <id>http://derek.github.io/blog/2010/amazon-and-lala-what-could-have-been</id>
+    <content type="html"><![CDATA[<div style="float:right;padding:20px;"><img src="http://www.derekville.net/wp-content/uploads/2010/01/lala.jpeg" alt="lala.jpeg" border="0" width="169" height="112" /></div>
+
+
+<p>It&rsquo;s now been about 6 weeks since <a href="http://www.techcrunch.com/2009/12/04/apple-acquires-lala/">Apple bought Lala</a> and I&rsquo;ve spent some time reflecting on the acquisition.  When I first heard the news, it sounded like a good fit.  After-all, Lala is essentially a web-based version iTunes and has some great technology powering it.  It makes sense that Apple would  want to buy the next best thing and get some great engineers in the process.   However, I didn&rsquo;t think at the time that Apple&rsquo;s strategy would become so clear, so soon.  Apple&rsquo;s acquisitions usually take years to come to fruition.  Not this time though. TechCrunch recently reported that Apple is planning on transforming iTunes into a cloud-based iTunes.com service, and Lala&rsquo;s technology is the quickest way to do that. (&ldquo;<a href="http://www.techcrunch.com/2010/01/19/apples-secret-cloud-strategy-and-why-lala-is-critical/">Apple’s Secret Cloud Strategy And Why Lala Is Critical</a>&rdquo;).</p>
+
+<p>Seeing the immediate impact Lala&rsquo;s technology can have, I began to think about who else was in the bidding war for Lala?  Most reports say there were multiple companies interested, so you have to assume the a few of the typical parties were involved; Google, Amazon, Microsoft, Yahoo, AOL, Facebook, &amp; MySpace.  Only a couple of those companies stand out as a great fit, Amazon &amp; MySpace.  Right now MySpace has too many problems to deal with, so that leaves just one likely suitor&hellip; Amazon.
+<a id="more"></a><a id="more-656"></a>
+Amazon&rsquo;s entry into the digital music download space has been game-changing.  Prior to <a href="http://www.amazon.com/mp3">Amazon.com/mp3</a>, music lovers had no where to go to purchase non-DRM&rsquo;d MP3s.  We were stuck in the world of buying CDs to rip, buying DRM&rsquo;d tracks from iTunes, or of course&hellip; pirating music.  When Amazon came into the market in 2008, their impact was immediately felt as prices began to drop and DRM began to die.  This opened the floodgates to other services who also began selling non-DRM&rsquo;d MP3s, and music streaming became a sustainable business model.  Without Amazon&rsquo;s entry, I suspect little would have changed over the past 2 years.  Having competition for Apple is vitally important to the evolution of the media industry.  Apple is an amazingly innovative company, but like most companies, they grow content &amp; less innovative without anyone breathing down their back.</p>
+
+<p>As painless as Amazon has tried to make the downloading process when you purchase tracks from their MP3 store, it is still not as smooth and elegant as iTunes.   To add insult to injury, once the download is complete, Amazon&rsquo;s user experience is then transfered over to iTunes (for most users) where the user must import the purchased files to begin listening.  Amazon clearly needs to do something about this.  Transferring a customer into your rival&rsquo;s product at the end of the transaction process is a giant flaw in product design.  They need to provide their customers a way to stay in an Amazon environment throughout the Purchase->Download->Listen->Manage cycle.  This is where their acquisition of Lala would have been perfect.</p>
+
+<p>Had Amazon bought Lala, they would have obtained the engineering team that is hands-down the best at building a web-based media manager.  After integrating Amazon MP3 with Lala, they could then integrate the Amazon Video &amp; Kindle management interfaces into the Lala-based manager.  Beyond music, video, and books, Amazon could then begin to expand into other areas, perhaps buy a company like Roku and make their streaming video experience end-to-end Amazon as well.  We could have had a real competitor to iTunes.  Sadly though, Amazon dropped the ball with Lala, especially since the acquisition only cost Apple $17 million.  That&rsquo;s nothing for a company that just spent over a billion dollars to purchase Zappos.</p>
+
+<p>We&rsquo;re clearly approaching a time where our music devices are going to have constant wireless broadband connections.  You won&rsquo;t have to worry about locally storing music, it can all be hosted in the cloud and streamed to you on demand.  This isn&rsquo;t a brand new concept, but the timing is right for it to finally become mainstream.  If Apple is successful in transforming iTunes into iTunes.com, unchallenged, they will likely be able to declare &ldquo;game over&rdquo; with music delivery in the US.</p>
+
+<p>Hopefully Amazon sees the writing on the wall and steps up their game to provide a challenge.  Is Spotify our only hope?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Programmable Twitter Clients]]></title>
+    <link href="http://derek.github.io/blog/2009/on-programmable-twitter-clients/"/>
+    <updated>2009-11-30T11:51:31-08:00</updated>
+    <id>http://derek.github.io/blog/2009/on-programmable-twitter-clients</id>
+    <content type="html"><![CDATA[<p>Loic Lemuer (CEO of Seesmic) recently announced at Microsoft&rsquo;s Developer Conference that he&rsquo;ll be <a href="http://www.loiclemeur.com/english/2009/11/more-on-seesmics-vision-of-programmable-twitter-clients.html">releasing a new version of Seesmic</a> that supports plugins.  This is huge for developers, as well as users.</p>
+
+<div align="center">
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/Ql_PR6WtbGw&color1=0xb1b1b1&color2=0xcfcfcf&hl=en_US&feature=player_embedded&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/Ql_PR6WtbGw&color1=0xb1b1b1&color2=0xcfcfcf&hl=en_US&feature=player_embedded&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="425" height="344"></embed></object>
+</div>
+
+
+<p>Up until now the Twitter developer ecosystem has been very closed.  Sure the Twitter APIs are as open as possible, but all the clients out there are largely closed platforms.  There are a few exceptions, including <a href="http://code.google.com/p/spaz/">Spaz</a> and <a href="http://github.com/drgath/tweenky/">Tweenky</a> (my client) which are open-source.  It is great to have a starting point (aside from raw libraries) that gives developers a place to start with when building a Twitter application.  With Seesmic Desktop invading Windows with a programmable version that you can write plugins for, this is a huge step that hopefully will push other developers/companies towards the same model.<br/>
+<a id="more"></a><a id="more-600"></a>
+When I launched Tweenky about 18 months ago, I hadn&rsquo;t event thought about making it programmable, but pretty quickly afterwards I realized the potential it could have if it were programmable, and so I began a rewrite, and coded it in 99% JavaScript with two plugins out of the box, Twitter and Identi.ca.  I had plans for other plugins (Facebook), but the problem with developing a platform, and not just an application, is that it takes a loooot of time.  For one guy working in his spare time, it just wasn&rsquo;t going to be possible to abstract out a platform and develop a community around it.  So, I started with another rewrite and only focused support for Twitter.  I still think it was the right move given the limited amount of time I can spend developing it.</p>
+
+<p>What I&rsquo;m really waiting for is an easy way for Twitter developers to monetize their applications.  We&rsquo;ve all seen what the Apple has accomplished with the App Store and the ecosystem they created overnight.  While most iPhone developers have made very little, others have won the lottery and struck it rich.  While Twitter (the company) has been very supportive of the developer community, they should really look at giving it a push and figuring out a way to monetarily reward Twitter developers.  Nothing gets developers going like a big, fat, diamond crusted carrot dangling in front of their noses.  Afterall, Twitter wouldn&rsquo;t be Twitter if it weren&rsquo;t for the developers.  The various clients are what made the service usable for the hard-core Twitter users that create most of the valuable content.</p>
+
+<p>P.S. You can still view the programmable version at <a href="http://beta.tweenky.com">beta.tweenky.com</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Google's Vision of the Web in 2015]]></title>
+    <link href="http://derek.github.io/blog/2009/googles-vision-of-the-web-in-2015/"/>
+    <updated>2009-10-28T01:54:41-07:00</updated>
+    <id>http://derek.github.io/blog/2009/googles-vision-of-the-web-in-2015</id>
+    <content type="html"><![CDATA[<p>Marshall Kirkpatrick of ReadWriteWeb had an <a href="http://www.readwriteweb.com/archives/google_web_in_five_years.php">interesting post</a> today recapping an interview with Google&rsquo;s CEO Eric Schmidt at last week&rsquo;s Gartner Symposium.  In a short, 6 minute segment out of the full 45 minute interview (video below), Schmidt hinted at what the future of the internet will bring.</p>
+
+<p>Via RWW: <a href="http://www.readwriteweb.com/archives/google_web_in_five_years.php">Google&rsquo;s Eric Schmidt on What the Web Will Look Like in 5 Years</a></p>
+
+<blockquote><ul><li>Five years from now the internet will be dominated by Chinese-language content.</li>
+<li>Today's teenagers are the model of how the web will work in five years - they jump from app to app to app seamlessly.</li>
+<li>Five years is a factor of ten in <a href="http://en.wikipedia.org/wiki/Moore's_law">Moore's Law</a>, meaning that computers will be capable of far more by that time than they are today.</li> 
+<li>Within five years there will be broadband well above 100MB in performance - and distribution distinctions between TV, radio and the web will go away.</li>
+<li>"We're starting to make significant money off of Youtube", content will move towards more video.</li>
+<li>"Real time information is just as valuable as all the other information, we want it included in our search results."</li>
+<li>There are many companies beyond Twitter and Facebook doing real time.</li>
+<li>"We can index real-time info now - but how do we rank it?"</li>
+<li>It's because of this fundamental shift towards user-generated information that people will listen more to other people than to traditional sources.  Learning how to rank that "is the great challenge of the age." Schmidt believes Google can solve that problem.</li></ul></blockquote>
+
+
+<div align="center"><object width="425" height="344"><param name="movie" value="http://swf.tubechop.com/tubechop.swf?vurl=lHxub_yQfig&start=1392&end=1762&cid=32815"></param><embed src="http://swf.tubechop.com/tubechop.swf?vurl=lHxub_yQfig&start=1392&end=1762&cid=32815" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object></div>
+
+
+<p>It&rsquo;s hard to argue with any of those, really.  The one I&rsquo;m looking forward to most of all is the convergence of media platforms as the lines between TV, Radio, and Web become more and more blurry.  As those lines become blurred, more innovation will occur between the gaps and the old-time revenue models based mostly on distribution begin to fall apart.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Yahoo | Scribbles and Bits]]></title>
+  <link href="http://derek.github.io/blog/blog/categories/yahoo/atom.xml" rel="self"/>
+  <link href="http://derek.github.io/blog/"/>
+  <updated>2014-05-17T18:13:40-07:00</updated>
+  <id>http://derek.github.io/blog/</id>
+  <author>
+    <name><![CDATA[Derek Gathright]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Leaving Yahoo]]></title>
+    <link href="http://derek.github.io/blog/2013/on-leaving-yahoo/"/>
+    <updated>2013-11-07T16:47:00-08:00</updated>
+    <id>http://derek.github.io/blog/2013/on-leaving-yahoo</id>
+    <content type="html"><![CDATA[<p>A week ago I walked out of Building E for the last time. There are a lot of emotions as I reflect back on everything that has happened over the last 4 years <a href="http://derek.io/blog/2009/im-a-yahoo">since I joined</a>, the jubilant successes, the lesson-learning failures, and everything in between. I have to think that in the end, it will likely go down as one of the more fun and rewarding periods of my life.</p>
+
+
+
+
+<h2>Some highlights...</h2>
+
+
+
+
+<ul>
+<li>Attending, speaking, and mentoring hackers at <a href="http://derekgathright.com/resume/#conferences">27 conferences</a>. The YDN crew is world-class, and despite all the free food and nice benefits, working with them is one of the best perks of being an engineer at Yahoo. At least I think so. Special thanks to Anil, Havi, and Stacy for all their support at Hackdays, and helping organize SoCal meetups.</li>
+<li>I feel fortunate to have been around for the beginning stages of what everyone hopes will be Yahoo’s "big turnaround". We probably won’t know for another 2 or 3 years if it will ultimately succeed, but the changes made in the first 18 months have been exciting to witness. While I don’t envision myself taking over a struggling Fortune 500 company anytime soon, learning some lessons for what it takes to turn that ship around been invaluable. Communicate, set goals, accomplish, repeat. Simple, right? We'll find out.</li>
+<li>I also feel fortunate to have had the unique opportunity to work on <a href="http://yuilibrary.com/">a project</a> that reaches, what... 1/7th of the Earth's population in a given month? Kinda mindblowing when you think about it. And to top it off, you get to do it while working with a really talented and passionate group of people.</li>
+<li>It was especially great being able to see the insides of how to effectively manage a large open-source project. Since YUI is on a never-ending quest to open up as much as possible, looking back on where it was in 2009 compared to now is pretty remarkable. Some of that praise should of course be given to Github, for producing such an amazing product for open-source organizations and letting developers focus on developing. The entire culture around open-source has evolved greatly in the last few years, and I think YUI has responded remarkably well.</li>
+<li>Hacks! Especially ones with YQL. Between things like the <a href="https://github.com/yahoo/yql-executor">YQL Executor</a>, <a href="http://derek.io/blog/2010/how-to-secure-oauth-in-javascript/">Secure OAuth in JavaScript</a>, hacking YUI inside of YQL, SoCal Hackdays, Hacker Movie Nights, late-night scripting competitions with Dan Beam, and my projects from internal Hackdays, Yahoo absolutely cultivates the hacker mentality. I couldn't tell you if Paul Graham was right about Yahoo's <a href="http://www.paulgraham.com/yahoo.html">dead hacker culture</a> in 1998, but it certainly doesn't apply in 2013. Let a thousand hacks bloom! (as one of my hack-discuss memos once said)</li>
+<li>The Purple Kitten Tracker. One of these days, purple kittens will make an appearance in URLs, and it will be glorious.</li>
+<li>Y! Sports Karaoke. <a href="http://www.youtube.com/watch?v=izGwDsrQ1eQ">I'll just leave this here</a>.</li>
+<li>But most of all, the biggest highlight was simply setting a career goal, <a href="http://derek.io/blog/2010/return-to-sunnyvale">accomplishing it</a>, then <a href="http://derek.io/blog/2011/joining-yui">again</a>.</li>
+</ul>
+
+
+
+
+<h2>To conclude...</h2>
+
+
+
+
+<p>It was a pleasure to work with so many smart and passionate people, which was the entire reason <a href="http://derek.io/blog/2011/the-best-career-advice-youll-ever-get">why I joined Yahoo</a>. If you are the smartest person in the room and not the CEO, go find a smarter room. If you are working for a company that doesn’t believe in you, it’s time for a change. Ultimately, your career is about you, and the best way to succeed is to have the support of a company that can help you reach your goals. Yahoo gave me an immense amount of support over the years, and I'll always be grateful. So thanks to my managers Michael, Dan, Thomas, and Jenny.</p>
+
+
+
+
+<h2>What’s Next?</h2>
+
+
+
+
+<p>Believe it or not, in my four years at Yahoo I only took one vacation. So, I'm going to spend a few months off, Hawaii next week, travel more after that, hack on new projects, contribute to open-source, and eventually find my next adventure! If you are interested in speaking to me about opportunities, you can <a href="http://www.linkedin.com/in/derekgathright">connect with me on LinkedIn</a>, and find any other relevant links at <a href="http://derek.io/">derek.io</a>.</p>
+
+
+
+
+<p>Well Yahoo... So long, and thanks for all the fish!</p>
+
+
+
+
+<div align="center">
+  <img height="300" src="http://i.imgur.com/rJVteIv.jpg" />
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Return to Sunnyvale]]></title>
+    <link href="http://derek.github.io/blog/2010/return-to-sunnyvale/"/>
+    <updated>2010-04-23T20:26:48-07:00</updated>
+    <id>http://derek.github.io/blog/2010/return-to-sunnyvale</id>
+    <content type="html"><![CDATA[<div align="center"><img src="http://s89997654.onlinehome.us/screencaps/Flickr_Photo_Download__yahoo-sunnyvale-04-20100618-083757.jpg" alt="" width="613" height="194" /></div>
+
+
+<p>So right now I&rsquo;m sitting in a booth on the Yahoo! campus, the same booth where I set a goal 20 months ago that one day I&rsquo;d work for Yahoo! and&hellip;.</p>
+
+<p>[Wavy distorted omg we&rsquo;re going into a flashback. Begin narration]</p>
+
+<p>My first experience on the Yahoo campus was for Y! HackDay 2008. I remember coming to the campus, being totally lost, and overwhelmed, almost like your first day of High School or College. I wasn&rsquo;t an employee or anything. I was just a dumb programmer who wanted a taste of what Silicon Valley was really like. Seriously, I come from the startup world in Kansas City, I was in absolute awe of the place. This is where the Internet happens. Holy shit.</p>
+
+<p>I came to HackDay armed with an idea for a hack to build, but was totally unable to focus, so I just sat around, tweeting, talking, and having fun. The music, the hacks, the food, the beer. I was totally awestruck when I talked to someone who worked at Yahoo!, especially the ones working on products I had used. I knew at that moment this was a place I&rsquo;d always strive to work at. I knew I just <em>had</em> to work here, and be the person on the other end of that conversation.
+<a id="more"></a><a id="more-702"></a>
+Through the course of that weekend, I met <a href="http://twitter.com/ShawnRecruits4u">a recruiter</a> who for one reason or another took interest in my skills and said he&rsquo;d follow up with me. I didn&rsquo;t expect he would and he was just being nice. A couple weeks later I got a call from him stating he was interested in setting up an interview. I was shocked. &ldquo;Ok, yeah, umm.. sure, anytime&rdquo; I was so nervous before that first call. I reviewed just about every book I owned on programming, and I own a lot. I got the call and was speaking with an engineering manager who started asking me all sorts of questions about web development. In retrospect, I totally bombed it, and knew it. Rejected.</p>
+
+<p>Down, but not out, I was focused, I knew it was attainable, but I just needed more time. So, over the next year I did just about everything I could to get my skills up to the level they needed to be for another crack at an interview, always keeping that original interview experience in mind. I had a blueprint. A plan.</p>
+
+<p>A year later I got an email&hellip; &ldquo;I&rsquo;m back at Yahoo! Want another interview?&rdquo; It was the original recruiter. &ldquo;Yeah, absolutely.&rdquo; The only goal I had this time was getting further than the first. I wouldn&rsquo;t be totally bummed out if I didn&rsquo;t get the job, but I at least wanted an on-site interview, just as validation I was making progress. Off I went, studying my ass off for about a week straight, so focused on the lone objective of nailing that phone-screen. The phone rang, and we started chatting. These questions were totally different from the first time. But that&rsquo;s ok, I knew them. Apparently I did well, and I got an on-site.</p>
+
+<p>The on-site (at the Santa Monica office) went well, and I got an offer. It was a big step leaving Kansas City, but one that I&rsquo;d always regret if I stayed. So off I went, off to sunny SoCal. I started at the Santa Monica office working with the Entertainment team in November. Due to some mix-ups, I never did make it up here to Sunnyvale for training &amp; orientation. Beyond that, there was never much need for me to be up here in person as we have tele-conferencing equipment galore, and these virtual meetings are in our DNA because we have offices around the country, and around the world.</p>
+
+<p>So 5 months go by and I finally get up here for my first time. I&rsquo;m actually glad I didn&rsquo;t get up here before. I get to experience my first day at Yahoo, twice. I knew it was going to be weird, a good weird, and I knew that first time I came here was going to start flashing back. So here I am, sitting in the same booth, sipping my (free) mocha cappucino, admiring the courtyard, the weather, and the conversations going on around me. This is awesome. I have somewhere to be right now. But, nope&hellip;</p>
+
+<p>If you haven&rsquo;t set goals for yourself, do it. Set big ones. Set life-changing ones. When you achieve those, set higher ones, and just keep rolling. If you don&rsquo;t have goals, find them. I stumbled across this one because I saw a tweet about HackDay, thought it sounded fun, and stepped on a plane to fly out here almost 2 years ago. Random. Lucky&hellip; Bold.</p>
+
+<p>It&rsquo;s feelings like this that you wish you could just bottle up and relive whenever you want.</p>
+
+<p>So, I guess that&rsquo;s the reason I&rsquo;m writing this. A 30 minute slice of awesomeness, carved into this blog.</p>
+]]></content>
+  </entry>
+  
+</feed>

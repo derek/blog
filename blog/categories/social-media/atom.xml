@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Social Media | Scribbles and Bits]]></title>
+  <link href="http://derek.github.io/blog/blog/categories/social-media/atom.xml" rel="self"/>
+  <link href="http://derek.github.io/blog/"/>
+  <updated>2014-05-17T18:13:40-07:00</updated>
+  <id>http://derek.github.io/blog/</id>
+  <author>
+    <name><![CDATA[Derek Gathright]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dear Twitter, I Quit]]></title>
+    <link href="http://derek.github.io/blog/2010/my-birthday-gift-to-twitter-i-quit/"/>
+    <updated>2010-03-21T15:59:24-07:00</updated>
+    <id>http://derek.github.io/blog/2010/my-birthday-gift-to-twitter-i-quit</id>
+    <content type="html"><![CDATA[<p>As Twttr (sic) <a href="http://mashable.com/2009/03/21/happy-birthday-twitter/">celebrates its 4th birthday</a>, I figure it&rsquo;s as good of time as any to blog about something I&rsquo;ve been thinking for a while.  No, don&rsquo;t worry, I&rsquo;m not going to quit tweeting, but I will quit competing. Which sadly, is probably what they want.</p>
+
+<p>Twitter engineer Alex Payne sent out a prophetic tweet last month. In this message to the Twittersphere, he basically says that Twitter.com is going to be so badass and feature-rich that you&rsquo;ll soon rethink your need for 3rd party Twitter clients. This caused an uproar in the developer community as many (over-reacting) people took his comments to mean Twitter was going to try &amp; kill off the alternative clients. <a href="http://twitter.com/al3x">@Al3x</a> and the rest of Twitter HQ went into damage control mode to explain that Twitter wasn&rsquo;t attacking alternative clients and that they were still supportive of the developer community. Hugs all around, right? No. I think most people saw the writing on the wall at that point.</p>
+
+<p>I know I have. So, after 2 years of developing my own Twitter clients, I&rsquo;ve decided that I&rsquo;m finally throwing in the towel.  Twitter has built a great web app, so there&rsquo;s little need for me to continue. There&rsquo;s part of me that is sad, but mostly I&rsquo;m really happy for Twitter.  Also, I&rsquo;m relieved as I can now focus on something else.
+<a id="more"></a><a id="more-678"></a>
+A little background&hellip; It wasn&rsquo;t up until recently that Twitter&rsquo;s own web client (Twitter.com) lacked most of the features that I wanted, so I was forced to build them on my own. I began building <a href="http://tweenky.com">Tweenky</a> almost 2 years ago and the goal was simple&hellip; create a Twitter web client that had the following features:
+A) A friendly Ajax interface
+B) Integrated searching
+C) Groups
+D) Saved searches
+E) Fixed the @reply problem where replies were not visible to your replies feed unless it started with &ldquo;@username&rdquo;
+F) Had other basic shortcut features (like retweet links)</p>
+
+<p>When it was ready in the summer of &lsquo;08, I released it to the wild with the help of <a href="http://techcrunch.com/2008/07/24/tweenky-brings-gmails-good-looks-to-twitter/">TechCrunch</a> and other tech blogs, who all praised its set of features. I&rsquo;m not going to claim I was the only one working on such features. Most of them were just obvious extensions to how people really wanted to use the Twitter service. They would have been implemented by Twitter themselves had the service been stable enough to add feature development resources. It&rsquo;s funny to think that between 2006 and 2009 Twitter.com remained largely unchanged. Why? Because they were generating too many failwhales and fixing those was the #1 priority.</p>
+
+<p>By 2009, the engineering team had rebuilt Twitter into a stable platform and they were finally able to let the front-end developers loose and start working on features. First came some ajaxy goodness, then integrated searching the replies/mentions fix. Later in the year they added Lists and the Retweet feature. At that point, I noticed Tweenky started to become less &amp; less useful. Others did too and the userbase started to decrease.</p>
+
+<p>Enter 2010&hellip; The front-end team is beginning to crank out features &amp; tweaks at a fast pace. So far this year we&rsquo;ve seen hovercards, location dectection, and integrated maps. It&rsquo;s finally at the point where the speed of innovative features is out-pacing what the developer community will be able to keep up with. There are still some major clients, such as Tweetie (on the desktop) that haven&rsquo;t even integrated Lists yet. I&rsquo;m not going to attempt to work on the hovercards or integrated maps, not because I can&rsquo;t do them, but because what&rsquo;s the point? I&rsquo;ve actually begun using the Twitter.com web client more than my own client because it simply lacks essential features. Sure I can add them, but once I&rsquo;ve completed that, the larger-than-1-person-front-end team at Twitter will have rolled out a couple more slick features, and I will always be playing catch-up.</p>
+
+<p>So here&rsquo;s the point of this post&hellip; I&rsquo;m done. From here on out I suspect the majority of my Twitter time will be spent on the Twitter.com web client. Don&rsquo;t take this the wrong way, I&rsquo;m actually really happy for Twitter and the awesome front-end/UX team they&rsquo;ve assembled (which includes a number of ex-Yahoo&rsquo;s =D ). They&rsquo;ve implemented most of the &ldquo;must-have&rdquo; features that 3rd party developers have been working on for years. This is a good thing because those features are now available to the majority of the Twitter userbase instead of a small portion. I suspect over the course of 2010 and beyond, the pace that we see new features will continue to increase, and with every new release, more &amp; more 3rd party developers will cease working on their own clients. This will be a bitter pill for some in the developer community to swallow but the side-effect is they&rsquo;ll be spending less time on simple, basic features that Twitter.com should have, and instead hopefully on innovative non-client apps or things completly unrelated to Twitter.</p>
+
+<p>I&rsquo;m mostly happy with this direction. The main reason I&rsquo;ve developed Twitter clients is to geek around and gain experience in areas I feel my knowledge is lacking. I&rsquo;ve never approached my client development as &ldquo;OMG, I have to get as many people as possible to use this thing so I can make money and/or sell it!&rdquo; I&rsquo;ve never attempted to monetize my work. I&rsquo;ve just approached it as there&rsquo;s a certain user experience I want to have with Twitter, and if anyone else wants to join the fun, cool. No? That&rsquo;s cool too. Work hard and good things will come.  Having converted the original Tweenky client from mostly PHP to all JavaScript, I&rsquo;ve been able to gain valuable experience with jQuery, YUI3, &amp; JS in general. To me, that is satisfying enough. All the JS, REST API, and scaling knowledge I gained through this process is one of the reasons I now have a job at Yahoo.</p>
+
+<p>So what&rsquo;s next? I dunno. If I&rsquo;m spending X less hours per week trying to replace Twitter.com, I can now spend X hours working on something else. I&rsquo;ll most certainly work on some non-client Twitter apps, but I&rsquo;m hoping to spend the majority of my time on non-related Twitter projects. Maybe some much needed <a href="http://nodejs.org/">Node.js</a> hacking? Maybe some WebOS apps? Hmmm&hellip; Stay tuned.</p>
+
+<p>P.S. Tweenky has always been an open-source project. You can find the source code <a href="http://github.com/derek/tweenky/">on GitHub</a>. You can also find Tweenky&rsquo;s cousin &ldquo;Tweetanium&rdquo; (a YUI3 rewrite) <a href="http://github.com/derek/Tweetanium">on GitHub</a> as well.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Programmable Twitter Clients]]></title>
+    <link href="http://derek.github.io/blog/2009/on-programmable-twitter-clients/"/>
+    <updated>2009-11-30T11:51:31-08:00</updated>
+    <id>http://derek.github.io/blog/2009/on-programmable-twitter-clients</id>
+    <content type="html"><![CDATA[<p>Loic Lemuer (CEO of Seesmic) recently announced at Microsoft&rsquo;s Developer Conference that he&rsquo;ll be <a href="http://www.loiclemeur.com/english/2009/11/more-on-seesmics-vision-of-programmable-twitter-clients.html">releasing a new version of Seesmic</a> that supports plugins.  This is huge for developers, as well as users.</p>
+
+<div align="center">
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/Ql_PR6WtbGw&color1=0xb1b1b1&color2=0xcfcfcf&hl=en_US&feature=player_embedded&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/Ql_PR6WtbGw&color1=0xb1b1b1&color2=0xcfcfcf&hl=en_US&feature=player_embedded&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="425" height="344"></embed></object>
+</div>
+
+
+<p>Up until now the Twitter developer ecosystem has been very closed.  Sure the Twitter APIs are as open as possible, but all the clients out there are largely closed platforms.  There are a few exceptions, including <a href="http://code.google.com/p/spaz/">Spaz</a> and <a href="http://github.com/drgath/tweenky/">Tweenky</a> (my client) which are open-source.  It is great to have a starting point (aside from raw libraries) that gives developers a place to start with when building a Twitter application.  With Seesmic Desktop invading Windows with a programmable version that you can write plugins for, this is a huge step that hopefully will push other developers/companies towards the same model.<br/>
+<a id="more"></a><a id="more-600"></a>
+When I launched Tweenky about 18 months ago, I hadn&rsquo;t event thought about making it programmable, but pretty quickly afterwards I realized the potential it could have if it were programmable, and so I began a rewrite, and coded it in 99% JavaScript with two plugins out of the box, Twitter and Identi.ca.  I had plans for other plugins (Facebook), but the problem with developing a platform, and not just an application, is that it takes a loooot of time.  For one guy working in his spare time, it just wasn&rsquo;t going to be possible to abstract out a platform and develop a community around it.  So, I started with another rewrite and only focused support for Twitter.  I still think it was the right move given the limited amount of time I can spend developing it.</p>
+
+<p>What I&rsquo;m really waiting for is an easy way for Twitter developers to monetize their applications.  We&rsquo;ve all seen what the Apple has accomplished with the App Store and the ecosystem they created overnight.  While most iPhone developers have made very little, others have won the lottery and struck it rich.  While Twitter (the company) has been very supportive of the developer community, they should really look at giving it a push and figuring out a way to monetarily reward Twitter developers.  Nothing gets developers going like a big, fat, diamond crusted carrot dangling in front of their noses.  Afterall, Twitter wouldn&rsquo;t be Twitter if it weren&rsquo;t for the developers.  The various clients are what made the service usable for the hard-core Twitter users that create most of the valuable content.</p>
+
+<p>P.S. You can still view the programmable version at <a href="http://beta.tweenky.com">beta.tweenky.com</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Google's Vision of the Web in 2015]]></title>
+    <link href="http://derek.github.io/blog/2009/googles-vision-of-the-web-in-2015/"/>
+    <updated>2009-10-28T01:54:41-07:00</updated>
+    <id>http://derek.github.io/blog/2009/googles-vision-of-the-web-in-2015</id>
+    <content type="html"><![CDATA[<p>Marshall Kirkpatrick of ReadWriteWeb had an <a href="http://www.readwriteweb.com/archives/google_web_in_five_years.php">interesting post</a> today recapping an interview with Google&rsquo;s CEO Eric Schmidt at last week&rsquo;s Gartner Symposium.  In a short, 6 minute segment out of the full 45 minute interview (video below), Schmidt hinted at what the future of the internet will bring.</p>
+
+<p>Via RWW: <a href="http://www.readwriteweb.com/archives/google_web_in_five_years.php">Google&rsquo;s Eric Schmidt on What the Web Will Look Like in 5 Years</a></p>
+
+<blockquote><ul><li>Five years from now the internet will be dominated by Chinese-language content.</li>
+<li>Today's teenagers are the model of how the web will work in five years - they jump from app to app to app seamlessly.</li>
+<li>Five years is a factor of ten in <a href="http://en.wikipedia.org/wiki/Moore's_law">Moore's Law</a>, meaning that computers will be capable of far more by that time than they are today.</li> 
+<li>Within five years there will be broadband well above 100MB in performance - and distribution distinctions between TV, radio and the web will go away.</li>
+<li>"We're starting to make significant money off of Youtube", content will move towards more video.</li>
+<li>"Real time information is just as valuable as all the other information, we want it included in our search results."</li>
+<li>There are many companies beyond Twitter and Facebook doing real time.</li>
+<li>"We can index real-time info now - but how do we rank it?"</li>
+<li>It's because of this fundamental shift towards user-generated information that people will listen more to other people than to traditional sources.  Learning how to rank that "is the great challenge of the age." Schmidt believes Google can solve that problem.</li></ul></blockquote>
+
+
+<div align="center"><object width="425" height="344"><param name="movie" value="http://swf.tubechop.com/tubechop.swf?vurl=lHxub_yQfig&start=1392&end=1762&cid=32815"></param><embed src="http://swf.tubechop.com/tubechop.swf?vurl=lHxub_yQfig&start=1392&end=1762&cid=32815" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object></div>
+
+
+<p>It&rsquo;s hard to argue with any of those, really.  The one I&rsquo;m looking forward to most of all is the convergence of media platforms as the lines between TV, Radio, and Web become more and more blurry.  As those lines become blurred, more innovation will occur between the gaps and the old-time revenue models based mostly on distribution begin to fall apart.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Crowdsourcing Music Videos]]></title>
+    <link href="http://derek.github.io/blog/2009/crowdsourcing-music-videos/"/>
+    <updated>2009-09-03T17:18:35-07:00</updated>
+    <id>http://derek.github.io/blog/2009/crowdsourcing-music-videos</id>
+    <content type="html"><![CDATA[<p>I just came across one of the coolest music videos I&rsquo;ve ever seen, and the beauty of it? It was made by a fan, just for the fun of it.  Incredible.</p>
+
+<p>Link: <a href="http://vimeo.com/5904993">Two Weeks - Grizzly Bear</a> from <a href="http://vimeo.com/user1904617">Gabe Askew</a>.</p>
+
+
+
+
+<div align="center"><object width="400" height="220"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=5904993&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=5904993&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="220"></embed></object></div>
+
+
+
+
+<p>One of the first things I thought about while watching Gabe's video was whether this would be yet another take-down viral video because of copyright infringement?  But, a group like Grizzly Bear (or their record label) would be crazy to complain about the soundtrack because of the attention it generates for the song.</p>
+
+
+
+
+<p><p>You could either be a band that removes the soundtrack from someone&rsquo;s artistic work, infuriating them and accomplishing nothing.  Or, you could capitalize off it, much like Chris Brown&rsquo;s (or his record label&rsquo;s) decision to <strong>not</strong> remove the soundtrack from the &ldquo;JK Wedding Dance&rdquo; video that ended up boosting him to #4 on the iTunes charts and <a href="http://www.eonline.com/uberblog/b137057_could_viral_wedding_dance_video_save.html">possibly saved his career</a>.</p>
+
+<p><div align="center"><object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/4-94JhLEiN0&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/4-94JhLEiN0&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object></div></p>
+
+<p>Another recent example is the use of Barcelona&rsquo;s &ldquo;Please Don&rsquo;t Go&rdquo; song in a tranquil aquarium video that has been 1.8 million views at the times of this posting.  The band was so pleased that they posted a <a href="http://www.youtube.com/watch?v=Xqlpa3EWsok&feature=response_watch">video response</a> to introduce themselves to their new fans and credited the video towards increased albums sales and concert attendance.  Instead of saving a career (as in Brown&rsquo;s case), this very well could make a career for these guys, and all because they lucked out and had a passionate, artistic fan that wanted to showcase both their works, together.</p>
+
+<p><object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/u7deClndzQw&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/u7deClndzQw&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object></p>
+
+<p>Gabe&rsquo;s video is yet another great example of how music artists (and any celebrities) for that matter can use their fans to crowdsource ideas and content.  Instead of spending thousands or millions to produce a video, you can get really high quality content for next to nothing, all because your fans are passionate about your work and want to be more involved.  So get them involved, they want to be, and they&rsquo;ll reward you for the opportunity.</p>
+
+<p>As a final example, here&rsquo;s a video from Tilly &amp; The Wall which was completely crowdsourced by their fans.  All they did was ask users to send in clips of them singing their song &ldquo;Rainbows in the Dark&rdquo; and spliced them all together, making an awesome, fun, and cheap video.  Imagine a progressive band like Nine Inch Nails or Radiohead saying they weren&rsquo;t going going to make a video for their latest single and instead were holding a contest for a fan to make an &ldquo;official video&rdquo; for that song and awarding $20k?  Contests like that can become a breeding crowd for viral videos, something all musicians are dying for nowdays.</p>
+
+<p><div align="center"><object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/8LUCC4HSb-c&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/8LUCC4HSb-c&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"  width="425" height="344"></embed></object></div></p>
+
+<p><p>
+Related reading:
+<ul>
+<li><a href="http://torrentfreak.com/pirated-youtube-clip-boosts-bands-album-sales-090727/">‘Pirated’ Youtube Clip Boosts Band’s Album Sales</li>
+<li><a href="http://www.eonline.com/uberblog/b137057_could_viral_wedding_dance_video_save.html">Could Viral Wedding Dance Video Save Chris Brown&rsquo;s Career?</li>
+<li><a href="http://vray.info/interviews/gabeaskew/">Interview with Gabe Askew</a></li>
+</ul>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Review of the 'Twhirl' Twitter Client]]></title>
+    <link href="http://derek.github.io/blog/2008/review-of-the-twhirl-twitter-client/"/>
+    <updated>2008-03-28T08:00:37-07:00</updated>
+    <id>http://derek.github.io/blog/2008/review-of-the-twhirl-twitter-client</id>
+    <content type="html"><![CDATA[<p style="text-align: center"><img src="http://blog.derekville.net/wp-content/uploads/2008/03/twhirl.gif" alt="Twhirl" /></p>
+
+
+<p>Twhirl is a relatively new Twitter client that packs just about everything you need for twittering into one Adobe Air based application.  While Twhirl of course handles all the basic things you need out of a Twitter client, I feel it really shines when you start using the additional features and usability enhancements.</p>
+
+<p>Some of these features include:</p>
+
+<ul>
+    <li>Runs on Windows (200/XP/Vista) and Mac OSX</li>
+    <li>Ability to connect to multiple Twitter accounts</li>
+    <li>Ability to simultaneously post to Twitter, Pownce and Jaiku</li>
+    <li>Extremely easy to install and configure</li>
+    <li>Embedded services include Tweetscan, is.dg, Snurl, TwitPic, and Terraminds</li>
+    <li>Timeline filtering</li>
+    <li>Automatically checks for new version</li>
+    <li>New tweet notification windows</li>
+    <li>Localized to English, German, Italian, and Spanish</li>
+</ul>
+
+
+<h3>Installation</h3>
+
+
+<p>To install Twhirl, visit <a href="http://www.twhirl.org" title="twhirl" target="_blank">Twhirl&rsquo;s website</a> and on the right side you&rsquo;ll see links to download Adobe AIR and Twhirl.  If you don&rsquo;t yet have Adobe&rsquo;s integrated runtime environment (AIR) installed, follow the instructions you see to install it.  Once AIR is installed, click the download/&ldquo;install now&rdquo; link and you should see the AIR application installer begin to download and install the Twhirl application.  Follow the on screen instructions to complete.</p>
+
+<h3>Configuration</h3>
+
+
+<p>When you load the application for the first time, you&rsquo;ll need to set up your Twitter account(s).  Enter your screen name, and another box will prompt you for your password.  You will also see a few additional tabs.  The first being &ldquo;Colors&rdquo; which allows you to modify Twhirl&rsquo;s visual theme.  The second is &ldquo;Language&rdquo; where you can select between English, German, Italian, and Spanish.  And the final tab being &ldquo;Update&rdquo; where you can check if a newer version exists.</p>
+
+<h3>Sending Tweets</h3>
+
+
+<p><a href="http://blog.derekville.net/wp-content/uploads/2008/03/twhirl-views.png" title="Twhirl Screenshot" style="float: right"><img src="http://blog.derekville.net/wp-content/uploads/2008/03/twhirl-views.png" alt="Twhirl Screenshot" width="200" /></a> 99% of your time using Twhirl will be spent looking at the main Twhirl screen after you successfully connect.  From this screen you will see the &ldquo;river&rdquo; of new tweets rolling down as they arrive.  You can also post tweets by typing your message in the input box.  Please make not of the TwitPic and &ldquo;Shorten URL&rdquo; icons on the right of the input box for a couple very useful tools.</p>
+
+<p>Additionally, you have 9 view types that you can choose from in the drop-down.  These views range from the standard &ldquo;Timeline&rdquo; view with is the tweets from those you are following, viewing the archive of your own tweets, viewing your followers' bios, searching tweetscan.com, and a few more very useful views.</p>
+
+<h3> Gripes &amp; Suggestions</h3>
+
+
+<p>I&rsquo;ve already covered many of the upsides to using Twhirl, but I do have a few gripes and suggestions that I hope the developer can address in future releases:</p>
+
+<ul>
+    <li>When you lookup profiles inside Twhirl, you should be able to at a minimum, click a link that takes you to the user's Twitter account.  Optimally, I'd like to have the information on how many followers the user has, and how many people they are following.</li>
+    <li>When starting up the application, only notify me of direct/reply tweets I haven't yet read, not all of them.</li>
+    <li>Add <a href="TweetBurner.com" title="tweet-burner" target="_blank">TweetBurner.com</a> to the list of short URLs.</li>
+    <li>Add a <a href="http://quotably.com/" title="quotably" target="_blank">Quotably</a> link to each tweet.</li>
+</ul>
+
+
+<h3>Conclusion</h3>
+
+
+<p>Twhirl is my 5th Twitter client over the past 4-5 months, and really, the majority of that time has been spent on Twhirl because it has been my favorite, by far.  I have stuck with it because it offers all the essential functionality I need out of a twitter client, and then some.  It also happens to be the first Adobe AIR application I have actually had a good experience with and it gives me hope for the future for this platform.</p>
+
+<h3>Also, check out these reviews for other Twitter clients</h3>
+
+
+<ul>
+    <li>Twitterfox: <a href="http://www.daverohrer.com/twitterfox-review/">A Twitterfox Review</a></li>
+    <li>Twitterific: <a href="http://www.joostdevalk.nl/twitter-twitterific/">A Review of Twitterific</a></li>
+    <li>TwitterBerry: <a href="http://www.bbgeeks.com/blackberry-applications/complete-guide-to-twitterberry-the-blackberry-app-for-twitter-88266/">TwitterBerry, combining BlackBerry and Twitter</a></li>
+    <li>Twitterfeed: <a href="http://www.searchenginejournal.com/twitterfeed/6612/">A review of Twitterfeed</a></li>
+    <li>Twitbin: <a href="http://www.accuracast.com/seo-weekly/twitter-twitbin.php">Twitter and TwitBin - Microblogging Made Easy</a></li>
+    <li><a href="http://www.themadhat.com/social-media/debauchery-douchebaggary-drunkenness/">The Guide to Being a Drunken, Debaucherous Twit</a></li>
+    <li>Netvibes: <a href="http://dixonjones.com/web-technology/using-netvibes-for-your-smo/">Using Netvibes for SMO</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>YUI Benchmark - Scribbles and Bits</title>
+  <meta name="author" content="Derek Gathright">
+
+  
+  <meta name="description" content="YUI Benchmark is a new toolkit for JavaScript performance testing. Despite &#8220;YUI&#8221; being in the name, it can be used for any type of &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://derek.github.io/blog/2013/yui-benchmark">
+  <link href="/blog/favicon.png" rel="icon">
+  <link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Scribbles and Bits" type="application/atom+xml">
+  <script src="/blog/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/blog/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/blog/">Scribbles and Bits</a></h1>
+  
+    <h2>by Derek Gathright</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:derek.github.io/blog" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/blog/">Blog</a></li>
+  <li><a href="/blog/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">YUI Benchmark</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-11-25T17:15:25-08:00" pubdate data-updated="true">Nov 25<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><a href="https://github.com/derek/yui-benchmark">YUI Benchmark</a> is a new toolkit for JavaScript performance testing. Despite &#8220;YUI&#8221; being in the name, it can be used for any type of JavaScript application, including vanilla JS, YUI, Dojo, jQuery, Node.js, and anything else you can think of. The project was something I was working on at Yahoo to help with YUI&#8217;s CI performance testing needs, and since its quiet open-sourcing a few weeks ago, I&#8217;ve <a href="http://derek.io/blog/2013/on-leaving-yahoo/">had some time</a> to clean it up, fix bugs, and introduce some new functionality.</p>
+
+
+
+
+<p>Before we get into what it is, let&#8217;s first look at why it is useful.</p>
+
+
+
+
+<h2>Prelude</h2>
+
+
+
+
+<p>I believe the current state of JavaScript performance testing is a little inadequate. While there are certainly some developers who use tools like <a href="https://code.google.com/p/jslitmus/">JSLitmus</a>, <a href="http://benchmarkjs.com/">Benchmark.js</a>, or manual profiling to gather performance metrics, most don&#8217;t actively test performance of their code. Instead, most developers write performant code to the best of their ability and call it a day. I don&#8217;t think this is due to lack of interest in the idea. Rather, I just think it is due to a lack of flexible and easy-to-use tools. For instance, <a href="http://jsperf.com/">JSPerf.com</a> is awesome at what it does, but due to it being web-only, its usefulness is a bit limited. What about developers who want the ease of JSPerf, but want something command-line driven? Perhaps in a CI environment? Benchmark.js is handy, but it requires lots of boiler-plate for browser-testing as well as a custom test runner for integration into CI. Shouldn&#8217;t this be easier?</p>
+
+
+
+
+<p>We went through this before. If you look back 5+ years, few JavaScript developers were unit testing their JavaScript code. Even some of the popular JS libraries weren&#8217;t shipping fully tested code. We first started with <a href="http://jsunit.berlios.de">JsUnit</a>, then came <a href="http://yuilibrary.com/yui/docs/test/">YUI Test</a>, <a href="http://qunitjs.com/">QUnit</a>, <a href="http://pivotal.github.io/jasmine/">Jasmine</a>, <a href="http://visionmedia.github.io/mocha/">Mocha</a>, <a href="http://vowsjs.org/">Vows</a>, and a variety of others. As the number of available tools grew, so did our acceptance of the idea that our code needed to be rock-solid stable. Now, often times the only way to deploy code is through <a href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> systems (such as <a href="http://jenkins-ci.org/">Jenkins</a>, <a href="https://travis-ci.org/">Travis CI</a>) that run your code through a gauntlet of unit tests. Heck, a few weeks ago I was talking to a fellow developer and he said <em>&#8220;Know when code can be considered &#8216;legacy&#8217;? When it isn&#8217;t unit tested.&#8221;</em></p>
+
+
+
+
+<p>Our priorities, expectations, and workflows have changed since 2008. So with JavaScript unit testing now a mostly solved problem, I think we can now turn our attention to the problem of performance testing. If this field is of interest to you, here&#8217;s a tool that can probably help you out.</p>
+
+
+
+
+<h2>What is YUI Benchmark?</h2>
+
+
+
+
+<p>Think of YUI Benchmark as the glue that combines <a href="http://nodejs.org/">Node.js</a>, <a href="http://benchmarkjs.com/">Benchmark.js</a>, <a href="http://phantomjs.org/">Phantom.js</a>, <a href="http://yeti.cx/">Yeti</a>, and was designed around the workflow of YUI developers and CI testing environments. To dive in a bit more, it is a Node.js application that utilizes Benchmark.js to measure performance of a given function in various environments, including Node.js and web browsers.</p>
+
+
+
+
+<p>Here&#8217;s a quick demo executing <a href="https://github.com/derek/yui-benchmark/blob/master/examples/vanilla.js">this simple test</a>.</p>
+
+
+
+
+<pre><code>// vanilla.js - A test suite to compare array creation
+var suite = new PerfSuite({
+    name: 'Simple test',
+    tests: [
+        {
+            name: 'new Array()',
+            fn: function () {
+                var arr = new Array();
+            }
+        },
+        {
+            name: '[]',
+            fn: function () {
+                var arr = [];
+            }
+        }
+    ]
+});
+</code></pre>
+
+
+
+
+<p><img src="http://i.imgur.com/ZI941MA.gif" alt="YUI Benchmark demo" /></p>
+
+
+
+
+<p>The idea is that you provide simple performance tests (<a href="https://github.com/derek/yui-benchmark/blob/master/examples/">examples</a>), which contain only the code you want to test performance for, and you get to forget all the boiler-plate code. YUI Benchmark will read your test file, then compile it to either a <code>.html</code> file (for browser testing) or a <code>.js</code> file (for Node.js testing), execute it in the environment(s) of your choice, then dump the human readable results to the command-line or a raw JSON file. Flexible, and simple.</p>
+
+
+
+
+<p>Bonus features include the ability to test in multiple browsers at the same time (thanks Yeti!), as well as multi-version testing for development on the YUI project. In addition to built-in support for YUI, it also offers the ability to test jQuery and Dojo as well. Here&#8217;s <a href="https://github.com/derek/yui-benchmark/blob/master/examples/yui-jquery-dojo.js">an example</a> of that.</p>
+
+
+
+
+<p>So that&#8217;s the quick intro. I could go into more details here, but it would be duplicating much of the details and demos that can be currently found in the <a href="https://github.com/derek/yui-benchmark/blob/master/README.md">README</a>. So go check that out for more information on the project and details on how to get started. <em>(Hint: <code>npm install -g yui-benchmark</code>)</em></p>
+
+
+
+
+<h2>Roadmap?</h2>
+
+
+
+
+<p>YUI Benchmark is still a young project and has only been used in YUI&#8217;s CI system as well as a few select developers. While the feedback so far has been great, there&#8217;s probably still some rough edges to iron out. So aside from improving stability and usability, I&#8217;d love to eventually add some features to the project so it can realize it&#8217;s full potential. Here&#8217;s a few ideas&#8230;</p>
+
+
+
+
+<ul>
+<li><p><strong>Generalize multi-version testing for all projects, not just YUI</strong>. Multi-version support is valuable in performance testing because duplicating testing conditions for comparative analysis when results are gathered sometimes months apart, is not ideal. It&#8217;s often times far easier to execute tests against select versions of your code in the same test run and compare your results.</p></li>
+<li><p><strong>Machine state intelligence</strong>. I believe this is the most exciting aspect of an application like this. With the possibility of YUI Benchmark code executing in the client and server <em>while</em> your performance tests are executing, insight can be gathered about the state of your machine and factored into test results. Did your CPU max during testing? Are you swapping memory? Are your objects leaking? Any of these problems could be detected to inform the user that the results are less than ideal.</p></li>
+<li><p><strong>Phantom.js cluster support</strong>. Currently tests are run serially, one after another, after another, after another. If your project is like YUI, you can have dozens of tests suites containing hundreds of test cases, and at approx 6 seconds per test, this pretty quickly fails to scale. One solution could be to farm out the test files to phantom.js clusters on low-powered VMs so the tests could be run synchronously. Important to note that while <em>performance</em> testing on low-powered VMs seems counter-intuitive, it&#8217;s important to realize that this type of testing is comparative, not discrete. The key metric you are looking for <strong>is not</strong> how many operations per second your code ran, instead, it is how much faster it ran than your other result.  Also, I&#8217;d target &#8220;low-powered VMs&#8221; because that is commonly what you get in CI environments.</p></li>
+<li><p><strong>Introduce threshold support to trigger regression/failure in CI</strong>. Currently multi-version results require manual analysis to determine if your code is regressing. It isn&#8217;t possible to always trigger a failure if your test is running slower due to the fact that swings of +/- 5% are not uncommon. My suspicion is this will require the introduction of a threshold to accommodate highly variable tests. In the future, more intelligence can be used to compare against historical deltas and automate the process of determining the regression threshold value.</p></li>
+<li><p><strong>More intelligent analysis of gathered statistics</strong>. Any performance testing toolkit should provide accurate and detailed statistics so the developer can make the most informed decision for appropriate fixes. Currently, YUI Benchmark simply relays the statistics Benchmark.js calculates, but greater analysis can be done with multiple <code>--iterations</code> to expunge outliers and re-execute the suite.</p></li>
+<li><p>And more!</p></li>
+</ul>
+
+
+
+
+<p>Thanks for reading this, and I look forward to your <a href="https://github.com/derek/yui-benchmark/issues">feedback</a> and <a href="https://github.com/derek/yui-benchmark/pulls">contributions</a>!</p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Derek</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-11-25T17:15:25-08:00" pubdate data-updated="true">Nov 25<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/blog/categories/projects/'>Projects</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://derek.github.io/blog/2013/yui-benchmark/" data-via="" data-counturl="http://derek.github.io/blog/2013/yui-benchmark/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/on-leaving-yahoo/" title="Previous Post: Leaving Yahoo">&laquo; Leaving Yahoo</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/yui-benchmark/">YUI Benchmark</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/on-leaving-yahoo/">Leaving Yahoo</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/creating-an-api-service-with-yql/">Creating an API Service With YQL</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/learning-javascript/">Learning JavaScript</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/the-best-career-advice-youll-ever-get/">The Best Career Advice You'll Ever Get</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/splitt/">Splitt</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/planting-seeds/">Planting Seeds</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/joining-yui/">Joining YUI</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/the-engineer/">The Engineer</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/google-translate/">Google Shutting Down the Translate API</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Derek Gathright -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

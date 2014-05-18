@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Using Git on 1&1 (or Any 'Shared') Hosting - Scribbles and Bits</title>
+  <meta name="author" content="Derek Gathright">
+
+  
+  <meta name="description" content="Here&rsquo;s another &ldquo;How-to&rdquo; with 1and1 hosting, and this time I want to get the source code control/versioning program &ldquo;Git&rdquo &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://derek.github.io/blog/2009/using-git-on-11-or-any-shared-hosting">
+  <link href="/blog/favicon.png" rel="icon">
+  <link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Scribbles and Bits" type="application/atom+xml">
+  <script src="/blog/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/blog/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/blog/">Scribbles and Bits</a></h1>
+  
+    <h2>by Derek Gathright</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:derek.github.io/blog" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/blog/">Blog</a></li>
+  <li><a href="/blog/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Using Git on 1&1 (or Any 'Shared') Hosting</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-01-10T01:05:19-08:00" pubdate data-updated="true">Jan 10<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Here&rsquo;s another &ldquo;How-to&rdquo; with 1and1 hosting, and this time I want to get the source code control/versioning program &ldquo;Git&rdquo; installed on my shared host with 1&amp;1.  This was actually remarkably easy.</p>
+
+<ol>
+    <li> Go download Git from http://git-scm.com/download.  At the time of this posting, the latest version can be found at http://kernel.org/pub/software/scm/git/git-1.6.1.tar.gz</li>
+    <li>SSH into your 1&amp;1 account</li>
+    <li>&#8220;wget http://kernel.org/pub/software/scm/git/git-1.6.1.tar.gz&#8221;, and that will download the package</li>
+    <li>&#8220;tar -xvzf git-1.6.1.tar.gz&#8221; which will decompress the gzip file into a subdirectory</li>
+    <li>&#8220;cd git*&#8221; to change into the subdirctory</li>
+    <li>&#8220;make&#8221; to begin compiling the source.  You won&#8217;t be able to do &#8220;make install&#8221; because you likely won&#8217;t have permission to install anything to the system.</li>
+    <li>Now Git is ready to rock with the exception of needing to add it to your $PATH.  This can be done by typing &#8220;echo &#8216;PATH=$PATH:~/git-1.6.1/&#8217; &gt; ~/.profile&#8221;</li>
+</ol>
+
+
+<p>Done!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Derek</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-01-10T01:05:19-08:00" pubdate data-updated="true">Jan 10<span>th</span>, 2009</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/blog/categories/web-development/'>Web Development</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://derek.github.io/blog/2009/using-git-on-11-or-any-shared-hosting/" data-via="" data-counturl="http://derek.github.io/blog/2009/using-git-on-11-or-any-shared-hosting/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2008/tweenky-zendcon-vacations-ccckc-dotnext-etc/" title="Previous Post: Tweenky, Zendcon, vacations, CCCKC, DotNext, etc&hellip;">&laquo; Tweenky, Zendcon, vacations, CCCKC, DotNext, etc&hellip;</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2009/upcoming-events-for-kansas-city-developersdesigners/" title="Next Post: Upcoming events for Kansas City developers/designers">Upcoming events for Kansas City developers/designers &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/yui-benchmark/">YUI Benchmark</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/on-leaving-yahoo/">Leaving Yahoo</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/creating-an-api-service-with-yql/">Creating an API Service With YQL</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/learning-javascript/">Learning JavaScript</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/the-best-career-advice-youll-ever-get/">The Best Career Advice You'll Ever Get</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/splitt/">Splitt</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/planting-seeds/">Planting Seeds</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/joining-yui/">Joining YUI</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/the-engineer/">The Engineer</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/google-translate/">Google Shutting Down the Translate API</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Derek Gathright -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
