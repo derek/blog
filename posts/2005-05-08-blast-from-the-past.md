@@ -15,4 +15,6 @@ tags:
 - mls
 - simulation
 ---
-I came across <a href="http://www.derekgathright.com/soccer/jsp.htm">these files</a> earlier today and have decided to throw them up here.  This is basically what you do with your time living in a college town during the summer, unemployed.  I don't even think at this point 6 years ago I had any idea what MySQL or PHP was, because if I did, it would have made everything a whole lot easier.  For my MLS simulator, I was using Java arrays containing about 10,000 items, and something tells me that isn't the most efficient way to move data.  Also this was back in the day when I used Word and Excel to make webpages, how embarrassing!
+I came across [these files](http://www.derekgathright.com/soccer/jsp.htm) earlier today and have decided to throw them up here. This is basically what you do with your time living in a college town during the summer, unemployed. I don't even think at this point 6 years ago I had any idea what MySQL or PHP was, because if I did, it would have made everything a whole lot easier.
+
+For my MLS simulator, I was using Java arrays containing about 10,000 items, and something tells me that isn't the most efficient way to move data. Also this was back in the day when I used Word and Excel to make webpages, how embarrassing!

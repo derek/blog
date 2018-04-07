@@ -14,5 +14,4 @@ categories: []
 tags: []
 comments: []
 ---
-Time to get those <a href="http://en.wikipedia.org/wiki/Mashup_(web_application_hybrid)">mashups</a> rollin.
-<a href="http://www.programmableweb.com/apis">http://www.programmableweb.com/apis</a>
+Time to get those [mashups](http://en.wikipedia.org/wiki/Mashup_(web_application_hybrid)) rollin. [http://www.programmableweb.com/apis](http://www.programmableweb.com/apis)

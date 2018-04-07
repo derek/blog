@@ -130,46 +130,45 @@ comments:
   content: How Can  Twitter grow my Spa business?
 ---
 
-<p style="text-align: center"><img src="http://blog.derekville.net/wp-content/uploads/2008/03/twhirl.gif" alt="Twhirl" /></p>
 Twhirl is a relatively new Twitter client that packs just about everything you need for twittering into one Adobe Air based application.  While Twhirl of course handles all the basic things you need out of a Twitter client, I feel it really shines when you start using the additional features and usability enhancements.
 
 Some of these features include:
-<ul>
-	<li>Runs on Windows (200/XP/Vista) and Mac OSX</li>
-	<li>Ability to connect to multiple Twitter accounts</li>
-	<li>Ability to simultaneously post to Twitter, Pownce and Jaiku</li>
-	<li>Extremely easy to install and configure</li>
-	<li>Embedded services include Tweetscan, is.dg, Snurl, TwitPic, and Terraminds</li>
-	<li>Timeline filtering</li>
-	<li>Automatically checks for new version</li>
-	<li>New tweet notification windows</li>
-	<li>Localized to English, German, Italian, and Spanish</li>
-</ul>
-<h3>Installation</h3>
-To install Twhirl, visit <a href="http://www.twhirl.org" title="twhirl" target="_blank">Twhirl's website</a> and on the right side you'll see links to download Adobe AIR and Twhirl.  If you don't yet have Adobe's integrated runtime environment (AIR) installed, follow the instructions you see to install it.  Once AIR is installed, click the download/"install now" link and you should see the AIR application installer begin to download and install the Twhirl application.  Follow the on screen instructions to complete.
-<h3>Configuration</h3>
+* Runs on Windows (200/XP/Vista) and Mac OSX
+* Ability to connect to multiple Twitter accounts
+* Ability to simultaneously post to Twitter, Pownce and Jaiku
+* Extremely easy to install and configure
+* Embedded services include Tweetscan, is.dg, Snurl, TwitPic, and Terraminds
+* Timeline filtering
+* Automatically checks for new version
+* New tweet notification windows
+* Localized to English, German, Italian, and Spanish
+
+## Installation
+To install Twhirl, visit [Twhirl's website](http://www.twhirl.org "twhirl") and on the right side you'll see links to download Adobe AIR and Twhirl.  If you don't yet have Adobe's integrated runtime environment (AIR) installed, follow the instructions you see to install it.  Once AIR is installed, click the download/"install now" link and you should see the AIR application installer begin to download and install the Twhirl application.  Follow the on screen instructions to complete.
+
+## Configuration
 When you load the application for the first time, you'll need to set up your Twitter account(s).  Enter your screen name, and another box will prompt you for your password.  You will also see a few additional tabs.  The first being "Colors" which allows you to modify Twhirl's visual theme.  The second is "Language" where you can select between English, German, Italian, and Spanish.  And the final tab being "Update" where you can check if a newer version exists.
-<h3>Sending Tweets</h3>
-<a href="http://blog.derekville.net/wp-content/uploads/2008/03/twhirl-views.png" title="Twhirl Screenshot" style="float: right"><img src="http://blog.derekville.net/wp-content/uploads/2008/03/twhirl-views.png" alt="Twhirl Screenshot" width="200" /></a> 99% of your time using Twhirl will be spent looking at the main Twhirl screen after you successfully connect.  From this screen you will see the "river" of new tweets rolling down as they arrive.  You can also post tweets by typing your message in the input box.  Please make not of the TwitPic and "Shorten URL" icons on the right of the input box for a couple very useful tools.
+
+## Sending Tweets
+[![Twhirl Screenshot](http://blog.derekville.net/wp-content/uploads/2008/03/twhirl-views.png)](http://blog.derekville.net/wp-content/uploads/2008/03/twhirl-views.png "Twhirl Screenshot") 99% of your time using Twhirl will be spent looking at the main Twhirl screen after you successfully connect.  From this screen you will see the "river" of new tweets rolling down as they arrive.  You can also post tweets by typing your message in the input box.  Please make not of the TwitPic and "Shorten URL" icons on the right of the input box for a couple very useful tools.
 
 Additionally, you have 9 view types that you can choose from in the drop-down.  These views range from the standard "Timeline" view with is the tweets from those you are following, viewing the archive of your own tweets, viewing your followers' bios, searching tweetscan.com, and a few more very useful views.
-<h3> Gripes &amp; Suggestions</h3>
+
+## Gripes &amp; Suggestions
 I've already covered many of the upsides to using Twhirl, but I do have a few gripes and suggestions that I hope the developer can address in future releases:
-<ul>
-	<li>When you lookup profiles inside Twhirl, you should be able to at a minimum, click a link that takes you to the user's Twitter account.  Optimally, I'd like to have the information on how many followers the user has, and how many people they are following.</li>
-	<li>When starting up the application, only notify me of direct/reply tweets I haven't yet read, not all of them.</li>
-	<li>Add <a href="TweetBurner.com" title="tweet-burner" target="_blank">TweetBurner.com</a> to the list of short URLs.</li>
-	<li>Add a <a href="http://quotably.com/" title="quotably" target="_blank">Quotably</a> link to each tweet.</li>
-</ul>
-<h3>Conclusion</h3>
+* When you lookup profiles inside Twhirl, you should be able to at a minimum, click a link that takes you to the user's Twitter account.  Optimally, I'd like to have the information on how many followers the user has, and how many people they are following.
+* When starting up the application, only notify me of direct/reply tweets I haven't yet read, not all of them.
+* Add [TweetBurner.com](TweetBurner.com "tweet-burner") to the list of short URLs.
+* Add a [Quotably](http://quotably.com/ "quotably") link to each tweet.
+
+## Conclusion
 Twhirl is my 5th Twitter client over the past 4-5 months, and really, the majority of that time has been spent on Twhirl because it has been my favorite, by far.  I have stuck with it because it offers all the essential functionality I need out of a twitter client, and then some.  It also happens to be the first Adobe AIR application I have actually had a good experience with and it gives me hope for the future for this platform.
-<h3>Also, check out these reviews for other Twitter clients</h3>
-<ul>
-	<li>Twitterfox: <a href="http://www.daverohrer.com/twitterfox-review/">A Twitterfox Review</a></li>
-	<li>Twitterific: <a href="http://www.joostdevalk.nl/twitter-twitterific/">A Review of Twitterific</a></li>
-	<li>TwitterBerry: <a href="http://www.bbgeeks.com/blackberry-applications/complete-guide-to-twitterberry-the-blackberry-app-for-twitter-88266/">TwitterBerry, combining BlackBerry and Twitter</a></li>
-	<li>Twitterfeed: <a href="http://www.searchenginejournal.com/twitterfeed/6612/">A review of Twitterfeed</a></li>
-	<li>Twitbin: <a href="http://www.accuracast.com/seo-weekly/twitter-twitbin.php">Twitter and TwitBin - Microblogging Made Easy</a></li>
-	<li><a href="http://www.themadhat.com/social-media/debauchery-douchebaggary-drunkenness/">The Guide to Being a Drunken, Debaucherous Twit</a></li>
-	<li>Netvibes: <a href="http://dixonjones.com/web-technology/using-netvibes-for-your-smo/">Using Netvibes for SMO</a></li>
-</ul>
+
+## Also, check out these reviews for other Twitter clients
+* Twitterfox: [A Twitterfox Review](http://www.daverohrer.com/twitterfox-review/)
+* Twitterific: [A Review of Twitterific](http://www.joostdevalk.nl/twitter-twitterific/)
+* TwitterBerry: [TwitterBerry, combining BlackBerry and Twitter](http://www.bbgeeks.com/blackberry-applications/complete-guide-to-twitterberry-the-blackberry-app-for-twitter-88266/)
+* Twitterfeed: [A review of Twitterfeed](http://www.searchenginejournal.com/twitterfeed/6612/)
+* Twitbin: [Twitter and TwitBin - Microblogging Made Easy](http://www.accuracast.com/seo-weekly/twitter-twitbin.php)
+* [The Guide to Being a Drunken, Debaucherous Twit](http://www.themadhat.com/social-media/debauchery-douchebaggary-drunkenness/)
+* Netvibes: [Using Netvibes for SMO](http://dixonjones.com/web-technology/using-netvibes-for-your-smo/)

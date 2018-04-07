@@ -10,7 +10,7 @@ tags:
 - javascript
 - yql
 ---
-I spent a few days last week in New York City at Yahoo's <a href="http://developer.yahoo.com/blogs/ydn/posts/2011/09/yahoo-open-hack-all-stars-in-new-york-city/">Open Hack All-stars event</a>.  At this hack day, I was mentoring a team of 3 students from the University of Texas who set out to create a hack that allows you to control a media experience on your TV by using your iPad.
+I spent a few days last week in New York City at Yahoo's [Open Hack All-stars event](http://developer.yahoo.com/blogs/ydn/posts/2011/09/yahoo-open-hack-all-stars-in-new-york-city/). At this hack day, I was mentoring a team of 3 students from the University of Texas who set out to create a hack that allows you to control a media experience on your TV by using your iPad.
 
 <!--more-->
 
@@ -23,7 +23,7 @@ Alternatively, you could create an API service that will do all of this for you.
 <li>Reduces the number of requests your client makes to a single HTTP request</li>
 </ul>
 
-So, I strapped on the headphones and began coding.  A few hours later, <a href="http://derek.github.com/sandbox/hackallstars/mediasearch.xml">here's the result</a>.  It's YQL <a href="http://developer.yahoo.com/yql/guide/yql-opentables-chapter.html">datatable</a> that heavily uses the &lt;execute&gt; feature, which allows you to run arbitrary JavaScript.  Within &lt;execute&gt;, you get a simple library that allows you to do things like parse JSON, make HTTP calls, and create XML structures with <a href="http://en.wikipedia.org/wiki/ECMAScript_for_XML">E4X</a>.  The datatable code is pretty straight-forward really.  <em>Here's the service to talk to, the URLs to send the search query to, and the callback to parse each result set. Now go!</em>
+So, I strapped on the headphones and began coding. A few hours later, [here's the result](http://derek.github.com/sandbox/hackallstars/mediasearch.xml). It's YQL [datatable](http://developer.yahoo.com/yql/guide/yql-opentables-chapter.html) that heavily uses the <execute> feature, which allows you to run arbitrary JavaScript. Within <execute>, you get a simple library that allows you to do things like parse JSON, make HTTP calls, and create XML structures with [E4X](http://en.wikipedia.org/wiki/ECMAScript_for_XML). The datatable code is pretty straight-forward really. _Here's the service to talk to, the URLs to send the search query to, and the callback to parse each result set. Now go!_
 
 The beauty of this YQL datatable is that you have now created a fully-functional high-performance API server without the need for a server of your own to run it on.  
 
@@ -33,4 +33,4 @@ Here's a JSFiddle of the script in action.  Click the play button to see the com
 
 You can also toy around with the query in the YQL console <a href="http://y.ahoo.it/lDld8">here</a>.
 
-If you are interested in learning more fun stuff you can do with YQL, here's another post, <a href="http://derek.io/blog/2010/how-to-secure-oauth-in-javascript/">How-to: Secure OAuth in JavaScript</a>
+If you are interested in learning more fun stuff you can do with YQL, here's another post, [How-to: Secure OAuth in JavaScript](http://derek.io/blog/2010/how-to-secure-oauth-in-javascript/)

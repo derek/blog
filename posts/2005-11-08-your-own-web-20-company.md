@@ -16,6 +16,6 @@ comments: []
 ---
 How many Web 2.0 keywords can you cram into one company?
 
-<a href="http://andrewwooldridge.com/myapps/webtwopointoh.html">Hilarious website</a>.
+[Hilarious website](http://andrewwooldridge.com/myapps/webtwopointoh.html).
 
 My new company is "Meebodibo" and we specialize in "rss-based collaborative document editing via Ruby on Rails."  Awesome!

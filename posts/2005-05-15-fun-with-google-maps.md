@@ -15,6 +15,8 @@ tags:
 ---
 It's amazing how you can waste hours of your day playing around with the brand new Google satellite maps.  Here are a few interesting locations I've come across...
 
+<!--more-->
+
 White Sands Missile range. The middle of the circle is where the first atomic bomb exploded.
 
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=white+sands+missile+range,+nm&amp;t=k&amp;hl=en&amp;ie=UTF8&amp;ll=33.666229,-106.461296&amp;spn=0.057507,0.069695&amp;output=embed"></iframe>

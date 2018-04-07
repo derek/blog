@@ -21,6 +21,8 @@ Well, I finally got around to giving [Ajax](http://en.wikipedia.org/wiki/AJAX) (
 
 So off I went to grab the latest version of [SAJAX](http://www.modernmethod.com/sajax/) (Simple Ajax), and boy were they right about the "simple" part.  Within about 30 minutes, I had a functional script that you can now find on the side bar.  Before you try it out, please use the [demo page](http://www.derekgathright.com/ajax_send_mail.php), as I don't need everyone sending me text messages just to see how it works.
 
+<!--more-->
+
 Next step, getting my responses to show up!
 
 Edit:  At first that last comment was a joke, [but two hours later...](http://www.derekgathright.com/chat_full.php), that was shockingly easy.  I'd like to get it integrated into the side bar, but out of time tonight.  I'll post the code when I have a bit more time to work on it.  So feel free to send a message or two, as I can respond rather easily.  If you get annoying, I can turn it off via my cell phone too.
