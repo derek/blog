@@ -9,6 +9,9 @@ categories:
 - Yahoo
 tags: []
 ---
+
+![Goodbye](https://i.imgur.com/r6Ru2Hb.png)
+
 A week ago I walked out of Building E for the last time. There are a lot of emotions as I reflect back on everything that has happened over the last 4 years [since I joined](http://derek.io/blog/2009/im-a-yahoo), the jubilant successes, the lesson-learning failures, and everything in between. I have to think that in the end, it will likely go down as one of the more fun and rewarding periods of my life.
 
 <!--more-->

@@ -10,6 +10,8 @@ tags:
 - javascript
 comments: []
 ---
+![javascript](https://cdn-images-1.medium.com/max/785/1*H-25KB7EbSHjv70HXrdl6w.png)
+
 So you want to learn JavaScript huh? I can't blame you, it's a pretty rad programming language.  Well lucky for you, it's a really easy language to pick up and learn.  You can get started with the language without spending a penny on a compiler, an IDE, or any instructional material.  Heck, you already have a computer capable of running JavaScript.  I know that because every modern web browser has one, and that's how you are viewing this blog post.
 
 <!--more-->

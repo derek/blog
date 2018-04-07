@@ -12,6 +12,8 @@ tags:
 - performance
 - testing
 ---
+![speedometer](https://i.imgur.com/NMX7BG0.jpg)
+
 [YUI Benchmark](https://github.com/derek/yui-benchmark) is a new toolkit for JavaScript performance testing. Despite "YUI" being in the name, it can be used for any type of JavaScript application, including vanilla JS, YUI, Dojo, jQuery, Node.js, and anything else you can think of. The project was something I was working on at Yahoo to help with YUI's CI performance testing needs, and since its quiet open-sourcing a few weeks ago, I've [had some time](http://derek.io/blog/2013/on-leaving-yahoo/) to clean it up, fix bugs, and introduce some new functionality.
 
 Before we get into what it is, let's first look at why it is useful.

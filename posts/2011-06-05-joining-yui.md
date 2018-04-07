@@ -69,6 +69,7 @@ comments:
     reason might be that YUI3 is harder to use for beginners. Best wishes to both
     jQuery and YUI team.
 ---
+![](http://www.professionalsofttech.com/wp-content/uploads/2014/04/yui.png)
 It seems like just yesterday I <a href="http://derek.io/blog/2009/im-a-yahoo/">accepted a position</a> with Yahoo and began a new adventure. These last 18 months have been an incredibly exciting time in my life, and am very thankful to have been given the opportunity. I can confidently say that Yahoo is -the- best place to work as a front-end engineer.
 
 <!--more-->

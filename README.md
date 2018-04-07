@@ -1,8 +1,12 @@
 Source files for http://derek.io/blog
 
+To Write
+
+    hexo new some-post-title
+
 To Deploy
 
-    cd hexo && hexo clean && hexo generate && hexo deploy
+    hexo clean && hexo generate && hexo deploy
 
 To rebuild Apollo
 

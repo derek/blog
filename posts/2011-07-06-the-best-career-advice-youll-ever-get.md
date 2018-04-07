@@ -8,6 +8,7 @@ categories:
 - Career
 tags: []
 ---
+![career advice](https://imgur.com/Qwkp2Um.png)
 The Huffington Post just posted an interview with Marissa Mayer (<a href="http://www.huffingtonpost.com/2011/07/06/google-marissa-mayer-women-in-tech_n_891167.html"><em>"Google Exec Marissa Mayer Explains Why There Aren't More Girl Geeks"</em></a>) in which she explained why she chose Google over 13 other companies she had job offers from out of college.
 
 <!--more-->

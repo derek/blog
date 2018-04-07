@@ -10,6 +10,8 @@ tags:
 - javascript
 - yql
 ---
+![](http://l.yimg.com/a/i/ydn/features/yql-ins-up-del.gif)
+
 I spent a few days last week in New York City at Yahoo's [Open Hack All-stars event](http://developer.yahoo.com/blogs/ydn/posts/2011/09/yahoo-open-hack-all-stars-in-new-york-city/). At this hack day, I was mentoring a team of 3 students from the University of Texas who set out to create a hack that allows you to control a media experience on your TV by using your iPad.
 
 <!--more-->
