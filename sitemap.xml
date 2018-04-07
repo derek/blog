@@ -2,6 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://derek.io/blog/2005/kicking-off-another-blog/</loc>
+    
+    <lastmod>2018-04-07T22:00:13.416Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2011/creating-an-api-service-with-yql/</loc>
+    
+    <lastmod>2018-04-07T21:58:02.368Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/a-review-of-sony-8217-s-eula/</loc>
+    
+    <lastmod>2018-04-07T21:57:19.094Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/your-own-web-2-0-company/</loc>
+    
+    <lastmod>2018-04-07T21:56:17.336Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/back-forward-buttons-fixed-in-ajax/</loc>
+    
+    <lastmod>2018-04-07T21:55:42.030Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/all-your-base-are-belong-to-google/</loc>
+    
+    <lastmod>2018-04-07T21:55:08.149Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/list-of-web-2-0-apis/</loc>
+    
+    <lastmod>2018-04-07T21:54:19.696Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/arrogance-preventing-hurricane-relief/</loc>
+    
+    <lastmod>2018-04-07T21:53:59.445Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/these-guys-don-t-want-your-pity-they-want-your-girlfriend/</loc>
+    
+    <lastmod>2018-04-07T21:52:50.713Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/blast-from-the-past/</loc>
+    
+    <lastmod>2018-04-07T21:52:32.955Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/first-ajax-script/</loc>
+    
+    <lastmod>2018-04-07T21:51:13.931Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/elephant/</loc>
+    
+    <lastmod>2018-04-07T21:51:02.963Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/how-not-to-handle-hollywood-success/</loc>
+    
+    <lastmod>2018-04-07T21:50:59.131Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/fun-with-google-maps/</loc>
+    
+    <lastmod>2018-04-07T21:50:54.467Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2005/a-look-at-two-cultures-rarely-seen/</loc>
+    
+    <lastmod>2018-04-07T21:50:16.942Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2008/review-of-the-twhirl-twitter-client/</loc>
+    
+    <lastmod>2018-04-07T21:48:26.005Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://derek.io/blog/2005/nerdtv/</loc>
     
     <lastmod>2018-04-07T21:41:23.464Z</lastmod>
@@ -19,13 +131,6 @@
     <loc>http://derek.io/blog/2013/yui-benchmark/</loc>
     
     <lastmod>2018-04-07T21:23:10.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2011/creating-an-api-service-with-yql/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.278Z</lastmod>
     
   </url>
   
@@ -233,13 +338,6 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/upcoming-events-for-kansas-city-developers-designers/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.223Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://derek.io/blog/2009/tech-support/</loc>
     
     <lastmod>2018-04-07T21:23:10.223Z</lastmod>
@@ -247,14 +345,21 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/using-git-on-1-1-or-any-shared-hosting/</loc>
+    <loc>http://derek.io/blog/2009/upcoming-events-for-kansas-city-developers-designers/</loc>
+    
+    <lastmod>2018-04-07T21:23:10.223Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2008/tweenky-zendcon-vacations-ccckc-dotnext-etc-hellip/</loc>
     
     <lastmod>2018-04-07T21:23:10.221Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2008/tweenky-zendcon-vacations-ccckc-dotnext-etc-hellip/</loc>
+    <loc>http://derek.io/blog/2009/using-git-on-1-1-or-any-shared-hosting/</loc>
     
     <lastmod>2018-04-07T21:23:10.221Z</lastmod>
     
@@ -283,13 +388,6 @@
   
   <url>
     <loc>http://derek.io/blog/2008/sprint-dumping-nextel/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.217Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2008/review-of-the-twhirl-twitter-client/</loc>
     
     <lastmod>2018-04-07T21:23:10.217Z</lastmod>
     
@@ -471,14 +569,14 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2005/univ-of-miami-boots-blogger/</loc>
+    <loc>http://derek.io/blog/2006/what-business-are-theaters-in/</loc>
     
     <lastmod>2018-04-07T21:23:10.178Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2006/what-business-are-theaters-in/</loc>
+    <loc>http://derek.io/blog/2005/univ-of-miami-boots-blogger/</loc>
     
     <lastmod>2018-04-07T21:23:10.178Z</lastmod>
     
@@ -527,41 +625,6 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2005/a-review-of-sony-8217-s-eula/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.166Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/your-own-web-2-0-company/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.165Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/back-forward-buttons-fixed-in-ajax/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.164Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/all-your-base-are-belong-to-google/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.163Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/list-of-web-2-0-apis/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.162Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://derek.io/blog/2005/how-tech-marketing-should-really-be/</loc>
     
     <lastmod>2018-04-07T21:23:10.160Z</lastmod>
@@ -579,20 +642,6 @@
     <loc>http://derek.io/blog/2005/googleair/</loc>
     
     <lastmod>2018-04-07T21:23:10.158Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/arrogance-preventing-hurricane-relief/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.157Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/these-guys-don-t-want-your-pity-they-want-your-girlfriend/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.156Z</lastmod>
     
   </url>
   
@@ -621,55 +670,6 @@
     <loc>http://derek.io/blog/2005/mobile-bash-org/</loc>
     
     <lastmod>2018-04-07T21:23:10.135Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/elephant/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.134Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/first-ajax-script/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.134Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/how-not-to-handle-hollywood-success/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.127Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/fun-with-google-maps/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.126Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/blast-from-the-past/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.118Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/a-look-at-two-cultures-rarely-seen/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.100Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/kicking-off-another-blog/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.096Z</lastmod>
     
   </url>
   
