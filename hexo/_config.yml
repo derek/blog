@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://derek.io/blog
-root: /
+root: /blog/
 permalink: :year/:post_title/
 permalink_defaults:
 
