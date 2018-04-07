@@ -32,11 +32,10 @@ comments:
   date_gmt: '1970-01-01 04:59:59 -0800'
   content: Just blogged a few of my thoughts about Crockford's first JS talk.  http://www.derekville.net/2010/crockford-on-javascript-part-1/
 ---
-<div><object width="576" height="324"><param name="movie" value="http://d.yimg.com/m/up/ypp/default/player.swf"></param><param name="flashVars" value="vid=17880750&"></param><param name="allowfullscreen" value="true"></param><param name="wmode" value="transparent"></param><embed width="576" height="324" allowFullScreen="true" src="http://d.yimg.com/m/up/ypp/default/player.swf" type="application/x-shockwave-flash" flashvars="vid=17880750&"></embed></object></div>
-
-<!--more-->
 
 I just finished watching Part 1 of Douglas Crockford's ongoing lecture series on JavaScript, and it's fascinating stuff.  A must watch for any programmer.  Even if you don't code in JS, it's worth watching simply because this first part is all about the history of programming. (video of talk is below)
+
+<!--more-->
 
 As web developers, we spend anywhere from a little bit of our time to the majority of it coding in JavaScript, but few know the history behind the language.  I'm not talking about just reading the Wikipedia article and knowing that it was created by Brenden Eich at Netscape in '95, I'm talking about the history of where the ideas behind the language came from and everything that influenced it.  Like most every language, JavaScript's syntax and style didn't appear out of nowhere, it was influenced by a number of different languages, and those influencers were in turn also influenced by a slew of languages.<a id="more"></a><a id="more-665"></a>It's easy for those of us that started programming with C (or anything after) to just look at it as the "Alpha" language and ignore everything that happened before it, but that's missing a lot of really important history, that we, as professionals, should know.  It's like a politician in the United States just ignoring everything that happened before 1776.  Learn from the mistakes of the past and spot the trends going forward and pave the best path.  Crockford shows us snippets of languages that were created in the 60's and 70', dissects them, and explains why certain people thought they were good ideas at the time.  It's amazing to think that there was a time before modules or functions, or before we had figured out the best way to format a <em>for</em> loop.  The history of programming languages is littered with a ton of bad ideas, but occasional brilliant ideas.  Those brilliant ideas are what get refined, and lay the foundation in the next generation of languages.
 

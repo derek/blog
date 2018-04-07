@@ -39,9 +39,9 @@ categories:
 tags: []
 comments: []
 ---
-<div style="float:right; padding:20px;"> <img src="http://covers.oreilly.com/images/9780596802806/lrg.jpg" width="200" /></div>
+![book cover](http://covers.oreilly.com/images/9780596802806/lrg.jpg)
 
-When I saw on NCZ's blog that he was <a href="http://www.nczonline.net/blog/2010/02/09/announcing-high-performance-javascript/">writing a new book</a> on JavaScript performance techniques, I instantly went to pre-order it.  Having partially read through <em><a href="http://www.amazon.com/gp/product/059680279X?ie=UTF8&tag=deresblog-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=059680279X">High Performance JavaScript</a></em> by now, I figured I'd start writing a review of this excellent book.
+When I saw on NCZ's blog that he was [writing a new book](http://www.nczonline.net/blog/2010/02/09/announcing-high-performance-javascript/) on JavaScript performance techniques, I instantly went to pre-order it. Having partially read through _[High Performance JavaScript](http://www.amazon.com/gp/product/059680279X?ie=UTF8&tag=deresblog-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=059680279X)_ by now, I figured I'd start writing a review of this excellent book.
 
 <!--more-->
 
