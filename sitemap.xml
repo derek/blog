@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://derek.io/blog/2010/high-performance-javascript-book-review/</loc>
+    
+    <lastmod>2018-04-07T22:30:39.776Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2011/joining-yui/</loc>
+    
+    <lastmod>2018-04-07T22:28:54.401Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2011/planting-seeds/</loc>
+    
+    <lastmod>2018-04-07T22:27:40.979Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2011/the-best-career-advice-you-ll-ever-get/</loc>
+    
+    <lastmod>2018-04-07T22:26:14.452Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2011/learning-javascript/</loc>
+    
+    <lastmod>2018-04-07T22:24:59.453Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2011/creating-an-api-service-with-yql/</loc>
+    
+    <lastmod>2018-04-07T22:23:55.039Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2013/yui-benchmark/</loc>
+    
+    <lastmod>2018-04-07T22:23:20.101Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2013/leaving-yahoo/</loc>
+    
+    <lastmod>2018-04-07T22:23:15.658Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://derek.io/blog/2010/amazon-and-lala-what-could-have-been/</loc>
     
     <lastmod>2018-04-07T22:11:28.733Z</lastmod>
@@ -30,13 +86,6 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2010/high-performance-javascript-book-review/</loc>
-    
-    <lastmod>2018-04-07T22:09:23.533Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://derek.io/blog/2010/installing-npm-on-webos-2-0/</loc>
     
     <lastmod>2018-04-07T22:08:05.041Z</lastmod>
@@ -47,13 +96,6 @@
     <loc>http://derek.io/blog/2005/kicking-off-another-blog/</loc>
     
     <lastmod>2018-04-07T22:00:13.416Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2011/creating-an-api-service-with-yql/</loc>
-    
-    <lastmod>2018-04-07T21:58:02.368Z</lastmod>
     
   </url>
   
@@ -163,51 +205,9 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2013/leaving-yahoo/</loc>
-    
-    <lastmod>2018-04-07T21:26:58.236Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2013/yui-benchmark/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2011/learning-javascript/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.277Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2011/the-best-career-advice-you-ll-ever-get/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.275Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://derek.io/blog/2011/splitt/</loc>
     
     <lastmod>2018-04-07T21:23:10.273Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2011/planting-seeds/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.272Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2011/joining-yui/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.271Z</lastmod>
     
   </url>
   
@@ -569,14 +569,14 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2005/univ-of-miami-boots-blogger/</loc>
+    <loc>http://derek.io/blog/2006/what-business-are-theaters-in/</loc>
     
     <lastmod>2018-04-07T21:23:10.178Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2006/what-business-are-theaters-in/</loc>
+    <loc>http://derek.io/blog/2005/univ-of-miami-boots-blogger/</loc>
     
     <lastmod>2018-04-07T21:23:10.178Z</lastmod>
     
