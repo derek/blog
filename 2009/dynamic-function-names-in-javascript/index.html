@@ -1,0 +1,60 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Dynamic function names in JavaScript · Scribbles & Bits</title><meta name="description" content="Dynamic function names in JavaScript - Derek Gathright"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://derek.io/blog/atom.xml" title="Scribbles &amp; Bits"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://github.com/derek" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Dynamic function names in JavaScript</h1><div class="post-info">Oct 14, 2009</div><div class="post-content"><p>If you are doing some more advanced JavaScript applications, you’ll likely run into the problem at one point or another when you need to dynamically generate the name of a function you wish to call. This is the equivalent of PHP’s <a href="http://php.net/manual/en/function.call-user-func.php" target="_blank">call_user_func()</a>.  </p>
+<p>Here’s how you can do it.</p>
+<pre lang="javascript">
+// Define some vars
+var foo = "hello";
+var bar = "world";
+var function_name = "say_" + foo + bar;
+
+// Since its name is being dynamically generated, always ensure your function actually exists
+if (typeof(window[function_name]) === "function")
+{
+    window[function_name](" World!");
+}
+else
+{
+    throw("Error.  Function " + function_name + " does not exist.");
+}
+
+function say_helloworld(the_word)
+{
+    alert("Hello " + the_word);
+}
+
+// Browser will alert "Hello World!"
+</pre>
+
+<p>When you think about it, it makes a lot of sense considering all global objects in JavaScript are actually properties of the “window” object.  Take a look at this example to understand that concept a bit more.</p>
+<pre lang="javascript">
+var foo = "apple";
+
+function foobar()
+{
+    var foo = "orange";
+    alert(window["foo"]); // alerts "apple"
+    alert(foo); // alerts "orange"
+    alert(window["foobar"]); // alerts the foobar function
+}
+
+foobar();
+</pre>
+
+<p>Here’s another example of when using a string to call a function could come in handy.  This time we’re calling the property of an object we’ve created.</p>
+<pre lang="javascript">
+function Person()
+{
+    this.message = "Hello World!";
+    this.say_hello = function(to)
+    {
+        alert(this.message);
+    }
+}
+
+var Derek = new Person();
+function_name = "say_hello";
+Derek[function_name]();
+</pre>
+
+<p>See how it looks pretty much the same as the method above using a global function?  </p>
+<p>Hope that shed some light on your problem.</p>
+</div></article></div></main><footer><div class="paginator"><a href="/2009/google-s-vision-of-the-web-in-2015/" class="prev">prev_post</a><a href="/2009/opacity-supports-export-to-canvas/" class="next">next_post</a></div><div class="copyright"><p>© 2005 - 2018 <a href="http://derek.io/blog">Derek Gathright</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>

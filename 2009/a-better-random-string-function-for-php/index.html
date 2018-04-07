@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> A Better Random String Function for PHP · Scribbles & Bits</title><meta name="description" content="A Better Random String Function for PHP - Derek Gathright"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://derek.io/blog/atom.xml" title="Scribbles &amp; Bits"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://github.com/derek" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">A Better Random String Function for PHP</h1><div class="post-info">Oct 30, 2009</div><div class="post-content"><p>Often times you’ll come across the need to generate a random string.  When you search for something like “PHP random string function” which will probably just be cut &amp; pasted into your code, you’ll typically find something like this function:</p>
+<pre lang="php">
+function genRandomString($length = 10) {
+    $characters = ‘0123456789abcdefghijklmnopqrstuvwxyz’;
+    $string = ”;
+    for ($p = 0; $p < $length; $p++) {
+        $string .= $characters[mt_rand(0, strlen($characters))];
+    }
+
+    return $string;
+}
+</pre>
+
+<p>While that’s great and all, don’t you just feel like there’s some better, simpler way to generate a random string?  Preferably something done all in one line, so you don’t even need a function inside your code?</p>
+<p>There is a way.  Actually, there are lots of ways.  There are numerous functions in PHP that can be used to generate a string of random characters, and the one I typically use here is something you’ve probably used quite a bit… md5().  </p>
+<p>If you aren’t familiar with it, <a href="http://en.wikipedia.org/wiki/MD5" target="_blank" rel="noopener">MD5</a> is a commonly used hashing technique that can be used to generate a unique 32-character “fingerprint” of a string. While it has been shown to have some security holes and not be collision proof, that isn’t really a concern the majority of the time you need to generate a random string.  So, we’ll go ahead and use it here.  </p>
+<pre lang="php">
+echo MD5(); // PHP Warning:  md5() expects at least 1 parameter, 0 given 
+</pre>
+
+<p>So, we need to pass in something, anything, but try to be unique.  microtime() is a good choice.</p>
+<pre lang="php">
+echo MD5(microtime()); // 5959e4c551ee3a91d89449437b681ead
+</pre>
+
+<p>Great, now we have a random 32 character string.  But what if you only want a slice of that, like 5 characters?  substr() is your answer.</p>
+<pre lang="php">
+echo substr(MD5(microtime(), 0, 5); // 5959e
+</pre>
+
+<p>If you are concerned about security and making this string even more random, just shuffle it with str_shuffle().</p>
+<pre lang="php">
+echo substr(str_shuffle(MD5(microtime())), 0, 5); // 6c468
+</pre>
+
+<p>Now wasn’t that easy?</p>
+</div></article></div></main><footer><div class="paginator"><a href="/2009/i’m-a-yahoo/" class="prev">prev_post</a><a href="/2009/google-s-vision-of-the-web-in-2015/" class="next">next_post</a></div><div class="copyright"><p>© 2005 - 2018 <a href="http://derek.io/blog">Derek Gathright</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>

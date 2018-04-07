@@ -1,0 +1,18 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> node-yql · Scribbles & Bits</title><meta name="description" content="node-yql - Derek Gathright"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://derek.io/blog/atom.xml" title="Scribbles &amp; Bits"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://github.com/derek" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">node-yql</h1><div class="post-info">Mar 6, 2010</div><div class="post-content"><div align="center" style="float:left; padding:20px;"><img src="http://farm3.static.flickr.com/2601/3858500752_9c3a39e4af.jpg" height="200"></div>
+
+<p>The more I play around with <a href="http://nodejs.org/" target="_blank" rel="noopener">Node.js</a>, the more I love server-side JavaScript.  Once you get over the weirdness of writing JavaScript outside of the browser, it feels very natural.  And the bonus is that it is blazing fast.  </p>
+<a id="more"></a>
+<p>Also, as I’ve been playing around with <a href="http://developer.yahoo.com/yql/" target="_blank" rel="noopener">YQL</a> (Yahoo Query Language) more lately, I realized I wanted to be able to access YQL data from within my Node app.  So, I created a <a href="http://github.com/drgath/node-yql" target="_blank" rel="noopener">node-yql </a> module.  </p>
+<p>Now you can do something like…</p>
+<p><div style="clear:both"></div></p>
+<pre lang="javascript">
+YQL.get("SELECT * FROM weather.forecast WHERE location=90066", function(response) {
+
+    var location  = response.query.results.channel.location,
+        condition = response.query.results.channel.item.condition;
+
+    sys.puts("The current temperature in " + location.city + " is " + condition.temp + " degrees");
+});
+// Output: The current temperature in Los Angeles is 57 degrees
+</pre>
+</div></article></div></main><footer><div class="paginator"><a href="/2010/dear-twitter-i-quit/" class="prev">prev_post</a><a href="/2010/jsfiddle-a-javascript-playground/" class="next">next_post</a></div><div class="copyright"><p>© 2005 - 2018 <a href="http://derek.io/blog">Derek Gathright</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
