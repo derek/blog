@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://derek.io/blog/2010/amazon-and-lala-what-could-have-been/</loc>
+    
+    <lastmod>2018-04-07T22:11:28.733Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2010/crockford-on-javascript/</loc>
+    
+    <lastmod>2018-04-07T22:11:10.803Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2010/node-yql/</loc>
+    
+    <lastmod>2018-04-07T22:10:50.861Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2010/return-to-sunnyvale/</loc>
+    
+    <lastmod>2018-04-07T22:10:06.194Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2010/high-performance-javascript-book-review/</loc>
+    
+    <lastmod>2018-04-07T22:09:23.533Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2010/installing-npm-on-webos-2-0/</loc>
+    
+    <lastmod>2018-04-07T22:08:05.041Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://derek.io/blog/2005/kicking-off-another-blog/</loc>
     
     <lastmod>2018-04-07T22:00:13.416Z</lastmod>
@@ -191,30 +233,9 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2010/installing-npm-on-webos-2-0/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.266Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://derek.io/blog/2010/secure-oauth-in-javascript/</loc>
     
     <lastmod>2018-04-07T21:23:10.265Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2010/high-performance-javascript-book-review/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.263Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2010/return-to-sunnyvale/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.262Z</lastmod>
     
   </url>
   
@@ -226,30 +247,9 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2010/node-yql/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.259Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://derek.io/blog/2010/jsfiddle-a-javascript-playground/</loc>
     
     <lastmod>2018-04-07T21:23:10.257Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2010/crockford-on-javascript/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.243Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2010/amazon-and-lala-what-could-have-been/</loc>
-    
-    <lastmod>2018-04-07T21:23:10.242Z</lastmod>
     
   </url>
   
@@ -569,14 +569,14 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2006/what-business-are-theaters-in/</loc>
+    <loc>http://derek.io/blog/2005/univ-of-miami-boots-blogger/</loc>
     
     <lastmod>2018-04-07T21:23:10.178Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2005/univ-of-miami-boots-blogger/</loc>
+    <loc>http://derek.io/blog/2006/what-business-are-theaters-in/</loc>
     
     <lastmod>2018-04-07T21:23:10.178Z</lastmod>
     
