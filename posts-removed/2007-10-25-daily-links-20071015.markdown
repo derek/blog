@@ -1,0 +1,17 @@
+---
+layout: post
+status: publish
+published: true
+title: Daily Links (2007/10/15)
+author: Derek
+author_login: admin
+author_email: drgath@gmail.com
+author_url: http://derek.io
+wordpress_id: 133
+wordpress_url: http://blog.derekville.net/?p=133
+date: 2007-10-25 13:24:30.000000000 -07:00
+categories: []
+tags: []
+comments: []
+---
+<ul> <li><a href="http://wordpress.org/development/2007/10/wordpress-231-release-candidate-1/" target="_blank">Wordpress 2.3.1 about to be released</a></li> <li><a href="http://fakesteve.blogspot.com/2007/10/duuuude-fifteen-billion-fifteen-billion_25.html" target="_blank">Fake Steve Jobs on last night's Facebook kegger</a></li> <li><a href="http://videos.24fans.net/uk_trailer/" target="_blank">24, season 7 preview</a> (video) - The best show on TV is almost back!&nbsp; Ditching CTU was a good idea, not so sure about bring TA back from the "dead" though, so I'll be really interested to see the explanation behind that one.</li></ul>

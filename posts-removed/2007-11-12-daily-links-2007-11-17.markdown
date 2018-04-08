@@ -1,0 +1,17 @@
+---
+layout: post
+status: publish
+published: true
+title: Daily Links 2007-11-17
+author: Derek
+author_login: admin
+author_email: drgath@gmail.com
+author_url: http://derek.io
+wordpress_id: 150
+wordpress_url: http://blog.derekville.net/?p=150
+date: 2007-11-12 21:42:06.000000000 -08:00
+categories: []
+tags: []
+comments: []
+---
+<ul> <li><a href="http://blog.pmarca.com/2007/11/rebuilding-holl.html" target="_blank">Rebuilding Hollywood in Silicon Valley's image</a> - Dead on.&nbsp; As unfortunate as it is for the families of the writer's on strike, there's no way new forms of entertainment don't come out of a prolonged absence of our favorite TV shows and movies.</li> <li><a href="http://www.printthis.clickability.com/pt/cpt?action=cpt&amp;title=Strike+Chart%3A+How+Long+Before+Your+Shows+Go+Dark%3F+-+Ausiello+Report+%7C+TVGuide.com&amp;expire=&amp;urlID=24863780&amp;fb=Y&amp;url=http%3A%2F%2Fcommunity.tvguide.com%2Fblog-entry%2FTVGuide-Editors-Blog%2F" target="_blank">Strike Chart: How Long Before Your Shows Go Dark?</a></li></ul> <p>Hooray!&nbsp; Rackspace has power again after 3 hour power outage.&nbsp; Back to work!</p>

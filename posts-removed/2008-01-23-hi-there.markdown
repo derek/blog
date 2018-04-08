@@ -1,0 +1,21 @@
+---
+layout: post
+status: publish
+published: true
+title: Hi there.
+author: Derek
+author_login: admin
+author_email: drgath@gmail.com
+author_url: http://derek.io
+wordpress_id: 151
+wordpress_url: http://blog.derekville.net/?p=151
+date: 2008-01-23 00:51:56.000000000 -08:00
+categories: []
+tags: []
+comments: []
+---
+<p>Well, I've been pretty silent lately, and that is due to a couple reason.</p>
+<p>a) I've been working constantly</p>
+<p>b) I got a new computer. A Macbook Pro to be specific and I hadn't thought of getting a blogging client for OSX until now. So I'm trying out <a href="http://infinite-sushi.com/software/ecto/">Ecto</a> right now to see how I like it. So far, so good. =)</p>
+
+<div class="posttagsblock"><a href="http://technorati.com/tag/osx" rel="tag">osx</a>, <a href="http://technorati.com/tag/apple" rel="tag">apple</a>, <a href="http://technorati.com/tag/ecto" rel="tag">ecto</a></div>

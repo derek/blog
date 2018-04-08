@@ -1,0 +1,19 @@
+---
+layout: post
+status: publish
+published: true
+title: On hiatus
+author: Derek
+author_login: admin
+author_email: drgath@gmail.com
+author_url: http://derek.io
+wordpress_id: 77
+wordpress_url: http://blog.derekville.net/?p=77
+date: 2007-05-26 10:05:25.000000000 -07:00
+categories: []
+tags: []
+comments: []
+---
+No, I haven't dissapeared, just haven't felt much like writing.  But a quick update over the last 6 months, I've moved into my new loft in Kansas City's River Market District, and absolutely loving it.  I'm also going to be starting a new job in the next couple weeks working as a developer for a new website that will hopefully launch in about 6 months, and couldn't be more excited!
+
+Until we meet again. =)

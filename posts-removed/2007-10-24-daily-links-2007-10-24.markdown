@@ -1,0 +1,17 @@
+---
+layout: post
+status: publish
+published: true
+title: Daily Links (2007-10-24)
+author: Derek
+author_login: admin
+author_email: drgath@gmail.com
+author_url: http://derek.io
+wordpress_id: 131
+wordpress_url: http://blog.derekville.net/?p=131
+date: 2007-10-24 17:08:29.000000000 -07:00
+categories: []
+tags: []
+comments: []
+---
+<ul> <li><a href="http://www.downloadsquad.com/2007/10/24/google-confirms-imap-for-gmail-video/" target="_blank">GMail adds IMAP functionality</a> - Woooo!&nbsp; I heart you google.&nbsp; It will be interesting to see how they handle IMAP inboxes considering they preach "Don't delete your email!"<br /><embed src="http://www.youtube.com/v/uQ22euWXYog" width="425" height="355" type="application/x-shockwave-flash" wmode="transparent">  <li><a href="http://mashable.com/2007/10/24/google-calendar-now-works-with-gears/" target="_blank">Google Calendar Now Works With Gears</a> - Unverified.&nbsp; Google gets another Wooooo! from me today if it is true.  </li><li><a href="http://www.techcrunch.com/2007/10/24/liveblogging-the-facebook-press-conference/" target="_blank">Microsoft buys 1.6% stake in Facebook for $240 million</a> - No frickin' way is Facebook worth $15 billion.&nbsp; Keep drinking the Zuckerberg kool-aid Microsoft. </li><li><a href="http://therealmccrea.wordpress.com/2007/10/24/why-is-facebook-worth-15-billion/" target="_blank">Why Facebook is Worth $15 Billion</a> - You can keep drinking the kool-aid too. </li><li><a href="http://www.dumbledorepride.com/" target="_blank">DumbledorePride.com</a> - Hah!&nbsp; You knew it was only a matter of time.</li></embed></li></ul>
