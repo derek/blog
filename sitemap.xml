@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://derek.io/blog/2013/leaving-yahoo/</loc>
+    
+    <lastmod>2018-04-08T16:05:43.165Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://derek.io/blog/2010/high-performance-javascript-book-review/</loc>
     
     <lastmod>2018-04-07T22:30:39.776Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>http://derek.io/blog/2013/yui-benchmark/</loc>
     
     <lastmod>2018-04-07T22:23:20.101Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2013/leaving-yahoo/</loc>
-    
-    <lastmod>2018-04-07T22:23:15.658Z</lastmod>
     
   </url>
   
@@ -282,14 +282,14 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/google-s-vision-of-the-web-in-2015/</loc>
+    <loc>http://derek.io/blog/2009/dynamic-function-names-in-javascript/</loc>
     
     <lastmod>2018-04-07T21:23:10.233Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/dynamic-function-names-in-javascript/</loc>
+    <loc>http://derek.io/blog/2009/google-s-vision-of-the-web-in-2015/</loc>
     
     <lastmod>2018-04-07T21:23:10.233Z</lastmod>
     
@@ -352,14 +352,14 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/using-git-on-1-1-or-any-shared-hosting/</loc>
+    <loc>http://derek.io/blog/2008/tweenky-zendcon-vacations-ccckc-dotnext-etc-hellip/</loc>
     
     <lastmod>2018-04-07T21:23:10.221Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2008/tweenky-zendcon-vacations-ccckc-dotnext-etc-hellip/</loc>
+    <loc>http://derek.io/blog/2009/using-git-on-1-1-or-any-shared-hosting/</loc>
     
     <lastmod>2018-04-07T21:23:10.221Z</lastmod>
     

@@ -418,18 +418,24 @@ table {
 
 header {
   min-height: 60px;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
   header .logo-link {
-    float: left; }
+    float: left;
+    display: none; }
   header .site-title {
     align-self: center;
     flex-grow: 1;
-    font-size: 1.5em; }
+    flex-shink: 0;
+    font-size: 2em;
+    margin-left: 10px; }
   header .nav {
     float: right;
     left: 80px; }
   header .logo-link img {
     height: 60px; }
+  header .nav-list {
+    flex-shrink: 0; }
   header .nav-list-item {
     display: inline-block;
     padding: 19px  10px; }
@@ -757,6 +763,9 @@ pre {
 #disqus_thread {
   margin-bottom: 2em; }
 
+main.container {
+  margin: 10px; }
+
 @media screen and (min-width: 700px) {
   .wrap {
     width: 700px;
@@ -770,7 +779,6 @@ pre {
     header a.logo-link,
     header ul.nav.nav-list {
       float: none;
-      display: block;
       text-align: center; }
     header li.nav-list-item {
       padding: 10px 10px; }
