@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "cd hexo/themes/apollo/source && gulp",
+    "deploy": "cd hexo && hexo clean && hexo generate && hexo deploy"
+  }
+}
