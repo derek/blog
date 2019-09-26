@@ -21,7 +21,7 @@ Well, I finally got around to giving [Ajax](http://en.wikipedia.org/wiki/AJAX) (
 
 So off I went to grab the latest version of [SAJAX](http://www.modernmethod.com/sajax/) (Simple Ajax), and boy were they right about the "simple" part.  Within about 30 minutes, I had a functional script that you can now find on the side bar.  Before you try it out, please use the [demo page](http://www.derekgathright.com/ajax_send_mail.php), as I don't need everyone sending me text messages just to see how it works.
 
-<!--more-->
+<!-- more -->
 
 Next step, getting my responses to show up!
 

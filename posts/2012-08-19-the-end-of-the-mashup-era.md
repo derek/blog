@@ -1,13 +1,16 @@
 ---
 title: The End of the Mashup Era
 date: 2012-08-19
+tags:
+- mashups
+- twitter
 ---
 
 Every time Twitter announces some new API initiative that further damages their once great developer community, I always think, _"Alright, this is the last time I'll write about them. I'm done."_ But every time, they always find a way to pull me back into the discussion.
 
 ![](https://media.giphy.com/media/B3nATT4FPkb3G/200.gif)
 
-<!--More-->
+<!-- more -->
 
 However, I'll actually try and refrain from commenting too much about their [recent changes](https://dev.twitter.com/blog/changes-coming-to-twitter-api). It's already been discussed to death, everyone hates it, including me, and frankly, I'm not surprised. It's just yet [another](http://derek.io/blog/2010/my-birthday-gift-to-twitter-i-quit/) [move](http://derek.io/blog/2011/some-thoughts-on-twitter-vs-ecosystem/) to close off and control their once free, open, and awesome API. But whatever, they can do what they like.
 

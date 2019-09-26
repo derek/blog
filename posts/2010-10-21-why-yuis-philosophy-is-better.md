@@ -9,7 +9,7 @@ I was digging through some old email today and came across a post I made to jque
 
 In the post, Yehuda Katz compares a relatively young jQuery to Prototype.js.  Rewinding back to 2007, I was a Prototype user and it was apparently that post that sold me on jQuery being a better library.  For the next 2 years I was a (mostly) happy jQuery user.
 
-<!--More-->
+<!-- more -->
 
 When I [started at Yahoo](http://derek.io/blog/2009/im-a-yahoo/), that was the beginning of my journey into the world of YUI. I was excited to learn something new, and pretty quickly learned to love the library because there is so much that it does right. Sure there's a little big of a learning curve compared to jQuery, but if you [know](http://www.jsrosettastone.com/) [where](http://yuilibrary.com/yui/docs/guides/) [to](http://yuilibrary.com/forum/) [look](http://yuitheater.com/) [for](http://twitter.com/yuilibrary) [help](http://webchat.freenode.net/?channels=yui), you can easily get answers to whatever questions you have. YUI has a full-time staff, and part of the team's job is to help you with whatever issues/questions you have about the library.
 

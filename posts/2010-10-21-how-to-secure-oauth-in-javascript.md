@@ -284,7 +284,7 @@ comments:
 ---
 Wouldn't it be awesome if we could use OAuth in JavaScript-only apps? JS is a powerful, expressive programming language, and the browser engines are getting <a title="arewefastyet.com" href="http://arewefastyet.com/">faster and faster all the time</a>. Why not use JavaScript to conduct your API calls and parse your data? In many cases, it is unnecessary to maintain a server-side proxy if all it is doing is making API calls for you and hiding your OAuth keys.
 
-<!--more-->
+<!-- more -->
 
 Think about this... If you don't need any server-side processing, your applications suddenly become infinitely scaleable, right? We could host on the cheapest of cheap commodity hosting. Heck, if all we're doing is serving static HTML/CSS/JS files, just throw it on a CDN like S3 or CloudFiles and pay per GB.
 

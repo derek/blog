@@ -6,7 +6,7 @@ date: 2010-10-26
 ![Serendipity](https://i.imgur.com/pnGHsrq.png)
 
 Since I came across Paul Buccheit's "[Serendipity Finds You](http://paulbuchheit.blogspot.com/2010/10/serendipity-finds-you.html)" blog post yesterday, it has been difficult to stop thinking about it. It's a great read, so definitely go check it out. Go ahead, I'll wait. While you are at it, read through the [Hacker News comments](http://news.ycombinator.com/item?id=1826666) on the article, they are just as enlightening as the article itself.
-<!--More-->
+<!-- more -->
 For those of you that don't know, Paul is an engineer at Facebook, and has had extraordinary success in his relatively young career. As one of the early employees at Google, he was in at the ground floor of one of the most successful companies of the last decade, and he was one of the reasons for their ginormous success. It almost seems unreal when you hear that one single person came up with GMail, AdSense (Google's primary source of revenue), and their famous "Don't be evil" motto. That is quite a trifecta. Paul eventually left Google to co-found Friendfeed, which was acquired by Facebook.
 
 You'd probably say Paul has been lucky in his career, and he may agree with you to an extent. However, there are various interpretations of what defines "luck". Crediting his success to mere random chance discredits Paul's knack for putting himself in fortunate positions. Some peoples' version of "luck" is when opportunity meets preparation, and they pounce.

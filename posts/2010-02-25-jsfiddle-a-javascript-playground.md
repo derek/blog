@@ -53,7 +53,7 @@ comments:
 ---
 Ajaxian had <a href="http://ajaxian.com/archives/jsfiddle" target="_blank">a story</a> yesterday about a brand-new JavaScript playground called <a href="http://jsfiddle.net">jsFiddle</a>. A write and execute web-based JavaScript IDE is nothing new, but this is much, much more than that.
 
-<!--more-->
+<!-- more -->
 
 <a href="http://s89997654.onlinehome.us/screencaps//YQL_YUI3_Twitter_example_-_jsFiddle_-_Online_Editor_for_the_Web_%28JavaScript%2C_MooTools%2C_jQuery%2C_Prototype%2C_YUI%2C_Glow_and_Dojo%2C_HTML%2C_CSS%29-20100224-215440.jpg"><img width="100%" src="http://s89997654.onlinehome.us/screencaps//YQL_YUI3_Twitter_example_-_jsFiddle_-_Online_Editor_for_the_Web_%28JavaScript%2C_MooTools%2C_jQuery%2C_Prototype%2C_YUI%2C_Glow_and_Dojo%2C_HTML%2C_CSS%29-20100224-215440.jpg"></a>
 

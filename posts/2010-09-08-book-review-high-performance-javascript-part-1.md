@@ -43,7 +43,7 @@ comments: []
 
 When I saw on NCZ's blog that he was [writing a new book](http://www.nczonline.net/blog/2010/02/09/announcing-high-performance-javascript/) on JavaScript performance techniques, I instantly went to pre-order it. Having partially read through _[High Performance JavaScript](http://www.amazon.com/gp/product/059680279X?ie=UTF8&tag=deresblog-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=059680279X)_ by now, I figured I'd start writing a review of this excellent book.
 
-<!--more-->
+<!-- more -->
 
 Since JavaScript is such an expressive language, there are dozens of different ways to do the same thing.  Some of them good, some mediocre, and a lot of them bad.  It's amazing how much awful JS info is on the web, all leftover from the dark ages of JS ('96 - '05). Up until this point, we haven't had an authoritative source on the topic of how to write JavaScript that performs well, both in and out of the browser.  Sure we're had great books about web performance (<a href="http://www.amazon.com/gp/product/0596529309?ie=UTF8&tag=deresblog-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596529309">High Performance Web Sites</a> is my favorite), but we haven't had anything specific to JavaScript.  Now we do.
 
@@ -95,7 +95,7 @@ This book contains a few guest author chapters, and this is one of them.  In thi
 
 Many web developers don't understanding what exactly "DOM scripting" is, even though they likely do it on a daily basis.  Many could tell you what the acronym stands for and that it represents the structure of an (X)HTML/XML document, but most don't know that it also represents the API part of how you interact with the document.  When you are using <em>document.getElementById("foobar")</em> or <em>myelement.style.color = "blue"</em>, you are utilizing a DOM API function accessible via JavaScript, but it has nothing to do with the ECMAScript (aka: JavaScript) standard.
 
-This chapter is chalk-full of great best practices & overviews of DOM principles.  The first thing we learn is that accessing the DOM is so slow because we're crossing the bridge between JavaScript and native browser code.  Jumping between the two is expensive, and should be kept to a minimum.  There are a lot of tricks & tips that are very under-utilized by most developers when DOM scripting.  
+This chapter is chalk-full of great best practices & overviews of DOM principles.  The first thing we learn is that accessing the DOM is so slow because we're crossing the bridge between JavaScript and native browser code.  Jumping between the two is expensive, and should be kept to a minimum.  There are a lot of tricks & tips that are very under-utilized by most developers when DOM scripting.
 
 For example:
 

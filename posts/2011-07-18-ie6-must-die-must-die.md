@@ -5,7 +5,7 @@ date: 2011-07-18
 
 For years, the phrase "IE6 Must Die" has been used as the rally cry for web developers who want to put IE6 in the rear-view mirror.  As a seasoned web developer, I've certainly had much share of frustrations with that browser.  We all have. It's just old and lacking in so many neat, useful, heck... vital features for modern web applications.  We can all agree that it's a royal pain in the ass and it is holding the web back. Right? Wrong.
 
-<!--More-->
+<!-- more -->
 
 I've tweeted "#ie6mustdie" more than a few times. I've cheered as Douglas Crockford shows "IE6 Must Die" slide during his presentations.  I even own a t-shirt that has the phrase.  As happy as I'd be if the browser disappeared off the face of the earth.  But unfortunately that's not going to happen and no amount of wishing on my part can accelerate its demise.
 
@@ -24,3 +24,7 @@ With the rise of HTML5, the world that the GBS exists in today is much different
 There are some parts of the world (northern Europe) where IE6 traffic is under 1%. Fortunately for them, (in my opinion) they can safely ignore IE6\. However, in other parts of the world, such as China, IE6 still accounts for up to 40% of the traffic ("[Why Microsoft Can’t Get Rid Of IE6 Yet](http://www.conceivablytech.com/8304/business/why-microsoft-cant-get-rid-of-ie6-yet)"). Globally, we're still above 10% IE6 market-share ([ie6countdown.com](http://www.ie6countdown.com/)). Because it still represents a significant market-share, it would be careless to completely drop support for the browser, especially for a JS library.
 
 Along with YUI, jQuery and Prototype both continue to support IE6, along with most other JS libs as well.  Why? We have to.  If a JS library doesn't support IE6, you can't even include it on your pages without fear of seriously impacting the experience for your users.  We shouldn't be the ones who tell you what browsers you can and can't support, that should be your decision.  It's your product, they are your users, you should decide what is best for them.  If you choose not to support a full experience for IE6 users, more power to you.  In many cases, I advocate that approach.  But, you should at least be confident that if you still wish to provide support for IE6 users, even minimal support, you have confidence that your JS library will work.
+
+While I'm absolutely in favor of pushing the web forward and reducing the usage of legacy browsers, we as web developers have to accept reality.  IE6 is the baseline web browser we're going to have to target for years to come.  When you build your next web application and build in basic support for IE6, do not think of it as "Supporting IE6", think of it as supporting "the web".  We develop atop a platform that considered backwards compatibility to be paramount, and the things we build should work decades from now.
+
+Life has definitely taught me to learn to love the things you must do.  In this case, I'm forcing myself to learn to love IE6 all over again.  I no longer view it as an annoyance, and instead look at it as a fundamental stepping stone on our journey to build a better web.  Years from now, I'm certain we'll all look back at IE6 with a bit more reverence.

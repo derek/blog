@@ -1,20 +1,16 @@
 ---
-layout: post
-status: publish
-published: true
-title: Learning JavaScript
-date: 2011-07-20 23:43:25.000000000 -07:00
+title: "Learning JavaScript"
+date: 2011-07-20
 categories:
 - Web Development
 tags:
 - javascript
-comments: []
 ---
 ![javascript](https://cdn-images-1.medium.com/max/785/1*H-25KB7EbSHjv70HXrdl6w.png)
 
 So you want to learn JavaScript huh? I can't blame you, it's a pretty rad programming language.  Well lucky for you, it's a really easy language to pick up and learn.  You can get started with the language without spending a penny on a compiler, an IDE, or any instructional material.  Heck, you already have a computer capable of running JavaScript.  I know that because every modern web browser has one, and that's how you are viewing this blog post.
 
-<!--more-->
+<!-- more -->
 
 I'm approaching this post as an introduction to JavaScript for someone who is already a programmer (novice or advanced, doesn't matter).  An introduction to programming would be an entirely different post.
 

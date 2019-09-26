@@ -19,7 +19,7 @@ tags:
 
 I just finished watching the documentary "[Overnight](http://www.imdb.com/title/tt0390336/)", featuring Troy Duffy's overnight rise and fall in Hollywood.  If you don't recognize the name, he was writer and director of the cult hit "[The Boondock Saints](http://www.imdb.com/title/tt0144117/")".  Boondock really was an entertaining movie and from what I understand has had rather impressive DVD sales for being a low budget independent film.  The sequel has "been in production" for quite some time, but likely won't ever be made.
 
-<!--more-->
+<!-- more -->
 
 It was amazing to see how quickly "the next big thing" to hit Hollywood can crash back down to earth.  He had, what appeared to be sure-fire success as he landed a movie deal with Miramax and a record deal with Maverick at the same time.  He was convinced he was going to be the biggest thing ever in that town and stated multiple times that no one has ever done what he was about to do in the history of Hollywood.  But, he let his ego become the largest in Hollywood (which is quite an accomplishment), and pissed it all away.
 

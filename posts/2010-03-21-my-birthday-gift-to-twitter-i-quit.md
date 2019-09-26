@@ -36,7 +36,7 @@ comments: []
 ---
 As Twttr (sic) <a href="http://mashable.com/2009/03/21/happy-birthday-twitter/">celebrates its 4th birthday</a>, I figure it's as good of time as any to blog about something I've been thinking for a while.  No, don't worry, I'm not going to quit tweeting, but I will quit competing. Which sadly, is probably what they want.
 
-<!--more-->
+<!-- more -->
 
 Twitter engineer Alex Payne sent out a prophetic tweet last month. In this message to the Twittersphere, he basically says that Twitter.com is going to be so badass and feature-rich that you'll soon rethink your need for 3rd party Twitter clients. This caused an uproar in the developer community as many (over-reacting) people took his comments to mean Twitter was going to try &amp; kill off the alternative clients. <a href="http://twitter.com/al3x">@Al3x</a> and the rest of Twitter HQ went into damage control mode to explain that Twitter wasn't attacking alternative clients and that they were still supportive of the developer community. Hugs all around, right? No. I think most people saw the writing on the wall at that point.
 

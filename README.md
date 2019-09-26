@@ -1,5 +1,9 @@
 Source files for http://derek.io/blog
 
+To Develop
+
+   hexo server
+
 To Write
 
     hexo new some-post-title

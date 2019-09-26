@@ -19,7 +19,7 @@ comments: []
 According to <a href="http://en.wikipedia.org/wiki/Engineering">Wikipedia</a>, Engineering is...
 <blockquote><em>"...the discipline, art and profession of acquiring and applying scientific, mathematical, economic, social, and practical knowledge to design and build structures, machines, devices, systems, materials and processes that safely realize solutions to the needs of society."</em></blockquote>
 
-<!--more-->
+<!-- more -->
 
 This morning I was watching <a href="http://news.cnet.com/8301-13577_3-20023018-36.html">Carol Bartz's interview</a> at the Web 2.0 Summit, and John Battelle asked her the question about acquiring engineering talent in the software/web world. When he asked that question, I stopped what I was doing and focused on the conversation because it's important to me that our CEO understands what motivates us. If she doesn't "get" it, then the company has a serious problem. Here was her answer:
 

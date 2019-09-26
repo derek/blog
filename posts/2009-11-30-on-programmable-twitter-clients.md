@@ -37,15 +37,15 @@ tags:
 - seesmic
 comments: []
 ---
-Loic Lemuer (CEO of Seesmic) recently announced at Microsoft's Developer Conference that he'll be <a href="http://www.loiclemeur.com/english/2009/11/more-on-seesmics-vision-of-programmable-twitter-clients.html">releasing a new version of Seesmic</a> that supports plugins.  This is huge for developers, as well as users.  
+Loic Lemuer (CEO of Seesmic) recently announced at Microsoft's Developer Conference that he'll be <a href="http://www.loiclemeur.com/english/2009/11/more-on-seesmics-vision-of-programmable-twitter-clients.html">releasing a new version of Seesmic</a> that supports plugins.  This is huge for developers, as well as users.
 
-<!--more-->
+<!-- more -->
 
 <div align="center">
 <object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/Ql_PR6WtbGw&color1=0xb1b1b1&color2=0xcfcfcf&hl=en_US&feature=player_embedded&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/Ql_PR6WtbGw&color1=0xb1b1b1&color2=0xcfcfcf&hl=en_US&feature=player_embedded&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="425" height="344"></embed></object>
 </div>
 
-Up until now the Twitter developer ecosystem has been very closed.  Sure the Twitter APIs are as open as possible, but all the clients out there are largely closed platforms.  There are a few exceptions, including <a href="http://code.google.com/p/spaz/">Spaz</a> and <a href="http://github.com/drgath/tweenky/">Tweenky</a> (my client) which are open-source.  It is great to have a starting point (aside from raw libraries) that gives developers a place to start with when building a Twitter application.  With Seesmic Desktop invading Windows with a programmable version that you can write plugins for, this is a huge step that hopefully will push other developers/companies towards the same model.  
+Up until now the Twitter developer ecosystem has been very closed.  Sure the Twitter APIs are as open as possible, but all the clients out there are largely closed platforms.  There are a few exceptions, including <a href="http://code.google.com/p/spaz/">Spaz</a> and <a href="http://github.com/drgath/tweenky/">Tweenky</a> (my client) which are open-source.  It is great to have a starting point (aside from raw libraries) that gives developers a place to start with when building a Twitter application.  With Seesmic Desktop invading Windows with a programmable version that you can write plugins for, this is a huge step that hopefully will push other developers/companies towards the same model.
 <a id="more"></a><a id="more-600"></a>
 When I launched Tweenky about 18 months ago, I hadn't event thought about making it programmable, but pretty quickly afterwards I realized the potential it could have if it were programmable, and so I began a rewrite, and coded it in 99% JavaScript with two plugins out of the box, Twitter and Identi.ca.  I had plans for other plugins (Facebook), but the problem with developing a platform, and not just an application, is that it takes a loooot of time.  For one guy working in his spare time, it just wasn't going to be possible to abstract out a platform and develop a community around it.  So, I started with another rewrite and only focused support for Twitter.  I still think it was the right move given the limited amount of time I can spend developing it.
 

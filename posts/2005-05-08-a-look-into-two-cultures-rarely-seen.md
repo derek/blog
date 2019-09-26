@@ -24,7 +24,7 @@ Over the past week, I had the pleasure of seeing two documentaries exposing two 
 
 Produced by 21 year old Jamie Johnson of the Johnson &amp; Johnson family, "Born Rich" was a look into the lives of himself and his peers, a handful of the heirs and heiresses of Americas wealth.  By watching, it's clear that Johnson doesn't have much experience making films, but that didn't detract from the film and the courage it took for a kid of his background to make a film solely about the wealth of his peers.  In their culture, Jamie's dad says that money is a taboo subject to be discussed publicly and reiterates over and over that he is not comfortable with his son making a film of this nature.  The family lawyer also recommends he not make this film as well.  But still... he rounds up a dozen or so of the nations wealthiest youth and grills them on a variety of questions ranging from their aspirations in life to their fears of being cut out of their inheritance.
 
-<!--more-->
+<!-- more -->
 
 Only a few come out showing some redeeming qualities (Ivanka Trump being one of them).  But there were a few others who fit the stereotype of rich, pompous, and whiny.  Not surprising Luke Weil tried (unsuccessfully) to sue Johnson to block the release of this film.  Maybe if he hadn't gloated about his money and said things like...  "Fuck you. I'm from New York... My family could buy your family. Piss off." or talking about only helping beggars just to get them away, he might not have worried about the film being released.   The security of being rich is of course attractive, but some of these kids showcase the fact that when you know nothing but money, you are completely oblivious to reality.
 

@@ -1,9 +1,6 @@
 ---
-layout: post
-status: publish
-published: true
-title: YUI Benchmark
-date: 2013-11-25 17:15:25.000000000 -08:00
+title: "YUI Benchmark"
+date: 2013-11-25
 categories:
 - Projects
 tags:
@@ -18,7 +15,7 @@ tags:
 
 Before we get into what it is, let's first look at why it is useful.
 
-<!--more-->
+<!-- more -->
 
 ## Prelude
 

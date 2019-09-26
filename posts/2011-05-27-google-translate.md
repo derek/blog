@@ -30,7 +30,7 @@ comments:
 ---
 When I have conversations with people about what excites me in technology today, I usually start with the fact that the Web is breaking down barriers in a way we've never experienced before.  It is simply amazing that anyone is free to publish anything they want whenever they want, and is it instantly available for global consumption.
 
-<!--more-->
+<!-- more -->
 
 Today, [2 billion people are on the internet](http://www.bulawayo24.com/index-id-news-sc-international-byo-966-article-More+than+2+billion+people+use+the+internet.html).  That means nearly a third of the world's population has access to Wikipedia, Google, Yahoo, Twitter, Facebook, etc...  The Web has finally given us the chance to globally communicate.  The only thing restricting us at this point isn't a technical barrier, but instead is a language barrier. Linguists estimate there are between 5,000-6,000 currently spoken languages on the planet.  Yet, very few of us speak more than one or two of those.  More than ever we need free & accessible ways to easily translate between languages, allowing us to communicate with a global audience.
 

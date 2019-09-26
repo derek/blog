@@ -16,9 +16,9 @@ tags:
 - twitter
 comments: []
 ---
-So Twitter is once again in some hot water with their developer community.  After a well-intentioned, but poorly executed suggestion to their developer community that they stop working on developing clients and instead work on "vertical" ideas, the feedback they've received has been less than ideal.  You can read the original post at "<a href="http://groups.google.com/group/twitter-development-talk/browse_thread/thread/c82cd59c7a87216a/b63072f6aff82db0">consistency and ecosystem opportunities</a>", and some of the media coverage <a href="http://mashable.com/2011/03/12/twitter-api-clients/">here</a>, <a href="http://techcrunch.com/2011/03/11/twitter-ecosystem-guidelines/">here</a>, and <a href="http://thenextweb.com/twitter/2011/03/14/twitter-explains-why-developers-shouldnt-build-new-clients/">here</a>.  
+So Twitter is once again in some hot water with their developer community.  After a well-intentioned, but poorly executed suggestion to their developer community that they stop working on developing clients and instead work on "vertical" ideas, the feedback they've received has been less than ideal.  You can read the original post at "<a href="http://groups.google.com/group/twitter-development-talk/browse_thread/thread/c82cd59c7a87216a/b63072f6aff82db0">consistency and ecosystem opportunities</a>", and some of the media coverage <a href="http://mashable.com/2011/03/12/twitter-api-clients/">here</a>, <a href="http://techcrunch.com/2011/03/11/twitter-ecosystem-guidelines/">here</a>, and <a href="http://thenextweb.com/twitter/2011/03/14/twitter-explains-why-developers-shouldnt-build-new-clients/">here</a>.
 
-<!--more-->
+<!-- more -->
 
 Some developers are understanding, others are irate, and many are still pretty confused about what exactly this all means.  I guess I'd put myself in the 3rd ("confused") group.  But I guess the one thing I do know, is that it is clear these "suggestions" and TOS updates are directed at UberMedia in order to prevent them from forking their portion of the Twitter user base.  But, now the rest of the community has now unfairly been dragged into the mix.
 

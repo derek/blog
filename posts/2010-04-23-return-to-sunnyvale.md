@@ -83,7 +83,7 @@ So right now I'm sitting in a booth on the Yahoo! campus, the same booth where I
 
 My first experience on the Yahoo campus was for Y! HackDay 2008. I remember coming to the campus, being totally lost, and overwhelmed, almost like your first day of High School or College. I wasn't an employee or anything. I was just a dumb programmer who wanted a taste of what Silicon Valley was really like. Seriously, I come from the startup world in Kansas City, I was in absolute awe of the place. This is where the Internet happens. Holy shit.
 
-<!--more-->
+<!-- more -->
 
 I came to HackDay armed with an idea for a hack to build, but was totally unable to focus, so I just sat around, tweeting, talking, and having fun. The music, the hacks, the food, the beer. I was totally awestruck when I talked to someone who worked at Yahoo!, especially the ones working on products I had used. I knew at that moment this was a place I'd always strive to work at. I knew I just *had* to work here, and be the person on the other end of that conversation.
 <a id="more"></a><a id="more-702"></a>

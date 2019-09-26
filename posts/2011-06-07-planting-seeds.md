@@ -23,7 +23,7 @@ comments: []
 ![plants](https://imgur.com/r81hbJe.png)
 6 years and 6 months ago I was a recent college grad, unemployed, and recently fired from my computer sales job.  I was horrible at sales.  Not because I'm not social and can't communicate, but because I always viewed myself as being on the side of the customer, not the employer.  "<em>No, you don't need that, it's twice as expensive as this model, and you won't use most of the features.  Here, this one is a better fit for you. Actually, you probably don't even need this at all.</em>"
 
-<!--more-->
+<!-- more -->
 
 Needless to say, sales managers don't really like that attitude.
 
@@ -35,11 +35,11 @@ Being without a job, I had more than enough time to take the initiative and get 
 
 While we organized & communicated mostly online, early-on we were without a website, so that needed to change.  Wordpress of today would have been perfect for the task, but this was 2004, so it was pretty unknown at the time and certainly wasn't as robust as it is now. I had built a few web sites before, dabbled in PHP, HTML, and CSS, but had never built anything too special and certainly nothing professional appearing. However, that didn't discourage me, and I was excited for the challenge of learning how to build the site from scratch.  Luckily, we had a talented designer in the group, so all I had to do was the coding.  Off I went.
 
-Because of how much fun I was having building the HASF website, I started to have the confidence that maybe I could turn my long-time programming hobby into a career. Within a few weeks, I had my first interview for a web developer position at a local startup.  During that interview, I was asked all the typical questions, some technical, and some non-technical.  I was doing ok.  Well, maybe. My lack of professional experience was pretty evident, cause I had none.  Towards the end I was asked, "<em>Do you have a website you've built that you could show us?</em>"  
+Because of how much fun I was having building the HASF website, I started to have the confidence that maybe I could turn my long-time programming hobby into a career. Within a few weeks, I had my first interview for a web developer position at a local startup.  During that interview, I was asked all the typical questions, some technical, and some non-technical.  I was doing ok.  Well, maybe. My lack of professional experience was pretty evident, cause I had none.  Towards the end I was asked, "<em>Do you have a website you've built that you could show us?</em>"
 
 Luckily...
 
-"<em>Sure, I just built one a few weeks ago</em>", and we pulled up <a href="http://hoasoccer.org">hoasoccer.org</a> on the projector.  
+"<em>Sure, I just built one a few weeks ago</em>", and we pulled up <a href="http://hoasoccer.org">hoasoccer.org</a> on the projector.
 
 I was pretty proud of it, and they could tell as I enthusiastically talked about all the things I wanted to eventually do with it.
 
