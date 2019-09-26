@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://derek.io/blog/2013/velocity-2013-building-a-faster-and-stronger-web/</loc>
+    
+    <lastmod>2019-09-26T20:13:18.581Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2010/amazon-and-lala-what-could-have-been/</loc>
+    
+    <lastmod>2019-09-26T18:01:49.001Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2009/last-day/</loc>
+    
+    <lastmod>2019-09-26T18:01:49.001Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2011/the-engineer/</loc>
+    
+    <lastmod>2019-09-26T18:01:49.001Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://derek.io/blog/2010/installing-npm-on-webos-2-0/</loc>
     
     <lastmod>2019-09-26T18:01:49.001Z</lastmod>
@@ -23,7 +51,7 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/i%E2%80%99m-a-yahoo/</loc>
+    <loc>http://derek.io/blog/2005/first-ajax-script/</loc>
     
     <lastmod>2019-09-26T18:01:49.001Z</lastmod>
     
@@ -37,35 +65,14 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2010/amazon-and-lala-what-could-have-been/</loc>
+    <loc>http://derek.io/blog/2009/i%E2%80%99m-a-yahoo/</loc>
     
     <lastmod>2019-09-26T18:01:49.001Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/last-day/</loc>
-    
-    <lastmod>2019-09-26T18:01:49.001Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2005/first-ajax-script/</loc>
-    
-    <lastmod>2019-09-26T18:01:49.001Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2011/the-engineer/</loc>
-    
-    <lastmod>2019-09-26T18:01:49.001Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2010/dear-twitter-i-quit/</loc>
+    <loc>http://derek.io/blog/2009/programmable-twitter-clients/</loc>
     
     <lastmod>2019-09-26T18:01:49.000Z</lastmod>
     
@@ -79,28 +86,7 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2010/node-yql/</loc>
-    
-    <lastmod>2019-09-26T18:01:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://derek.io/blog/2010/maximize-serendipity/</loc>
-    
-    <lastmod>2019-09-26T18:01:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2010/why-yui-s-philosophy-is-better/</loc>
-    
-    <lastmod>2019-09-26T18:01:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2011/google-shutting-down-the-translate-api/</loc>
     
     <lastmod>2019-09-26T18:01:49.000Z</lastmod>
     
@@ -114,28 +100,35 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/programmable-twitter-clients/</loc>
+    <loc>http://derek.io/blog/2010/node-yql/</loc>
     
     <lastmod>2019-09-26T18:01:49.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2013/yui-benchmark/</loc>
+    <loc>http://derek.io/blog/2010/dear-twitter-i-quit/</loc>
     
-    <lastmod>2019-09-26T18:01:48.999Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://derek.io/blog/2010/crockford-on-javascript/</loc>
-    
-    <lastmod>2019-09-26T18:01:48.999Z</lastmod>
+    <lastmod>2019-09-26T18:01:49.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2012/the-end-of-the-mashup-era/</loc>
+    <loc>http://derek.io/blog/2011/google-shutting-down-the-translate-api/</loc>
+    
+    <lastmod>2019-09-26T18:01:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2010/why-yui-s-philosophy-is-better/</loc>
+    
+    <lastmod>2019-09-26T18:01:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2011/creating-an-api-service-with-yql/</loc>
     
     <lastmod>2019-09-26T18:01:48.999Z</lastmod>
     
@@ -149,7 +142,7 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2011/creating-an-api-service-with-yql/</loc>
+    <loc>http://derek.io/blog/2010/crockford-on-javascript/</loc>
     
     <lastmod>2019-09-26T18:01:48.999Z</lastmod>
     
@@ -163,7 +156,7 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2010/secure-oauth-in-javascript/</loc>
+    <loc>http://derek.io/blog/2012/the-end-of-the-mashup-era/</loc>
     
     <lastmod>2019-09-26T18:01:48.999Z</lastmod>
     
@@ -177,16 +170,16 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2005/fun-with-google-maps/</loc>
+    <loc>http://derek.io/blog/2010/secure-oauth-in-javascript/</loc>
     
-    <lastmod>2019-09-26T18:01:48.998Z</lastmod>
+    <lastmod>2019-09-26T18:01:48.999Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2005/kicking-off-another-blog/</loc>
+    <loc>http://derek.io/blog/2013/yui-benchmark/</loc>
     
-    <lastmod>2019-09-26T18:01:48.998Z</lastmod>
+    <lastmod>2019-09-26T18:01:48.999Z</lastmod>
     
   </url>
   
@@ -205,16 +198,23 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2011/joining-yui/</loc>
+    <loc>http://derek.io/blog/2005/fun-with-google-maps/</loc>
     
     <lastmod>2019-09-26T18:01:48.998Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2005/how-not-to-handle-hollywood-success/</loc>
+    <loc>http://derek.io/blog/2005/kicking-off-another-blog/</loc>
     
-    <lastmod>2019-09-26T18:01:48.997Z</lastmod>
+    <lastmod>2019-09-26T18:01:48.998Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://derek.io/blog/2011/joining-yui/</loc>
+    
+    <lastmod>2019-09-26T18:01:48.998Z</lastmod>
     
   </url>
   
@@ -233,16 +233,16 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2005/nerdtv/</loc>
+    <loc>http://derek.io/blog/2005/how-not-to-handle-hollywood-success/</loc>
     
     <lastmod>2019-09-26T18:01:48.997Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2013/velocity-2013-building-a-faster-and-stronger-web/</loc>
+    <loc>http://derek.io/blog/2005/nerdtv/</loc>
     
-    <lastmod>2019-09-26T18:01:06.832Z</lastmod>
+    <lastmod>2019-09-26T18:01:48.997Z</lastmod>
     
   </url>
   
@@ -317,14 +317,14 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/dynamic-function-names-in-javascript/</loc>
+    <loc>http://derek.io/blog/2009/google-s-vision-of-the-web-in-2015/</loc>
     
     <lastmod>2018-04-07T21:23:10.233Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/google-s-vision-of-the-web-in-2015/</loc>
+    <loc>http://derek.io/blog/2009/dynamic-function-names-in-javascript/</loc>
     
     <lastmod>2018-04-07T21:23:10.233Z</lastmod>
     
@@ -387,14 +387,14 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2008/tweenky-zendcon-vacations-ccckc-dotnext-etc-hellip/</loc>
+    <loc>http://derek.io/blog/2009/using-git-on-1-1-or-any-shared-hosting/</loc>
     
     <lastmod>2018-04-07T21:23:10.221Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2009/using-git-on-1-1-or-any-shared-hosting/</loc>
+    <loc>http://derek.io/blog/2008/tweenky-zendcon-vacations-ccckc-dotnext-etc-hellip/</loc>
     
     <lastmod>2018-04-07T21:23:10.221Z</lastmod>
     
@@ -471,14 +471,14 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2008/when-the-internet-invades-techcrunch/</loc>
+    <loc>http://derek.io/blog/2008/ipod-killer-found-pt-2/</loc>
     
     <lastmod>2018-04-07T21:23:10.209Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2008/ipod-killer-found-pt-2/</loc>
+    <loc>http://derek.io/blog/2008/when-the-internet-invades-techcrunch/</loc>
     
     <lastmod>2018-04-07T21:23:10.209Z</lastmod>
     
@@ -604,14 +604,14 @@
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2006/what-business-are-theaters-in/</loc>
+    <loc>http://derek.io/blog/2005/univ-of-miami-boots-blogger/</loc>
     
     <lastmod>2018-04-07T21:23:10.178Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://derek.io/blog/2005/univ-of-miami-boots-blogger/</loc>
+    <loc>http://derek.io/blog/2006/what-business-are-theaters-in/</loc>
     
     <lastmod>2018-04-07T21:23:10.178Z</lastmod>
     
